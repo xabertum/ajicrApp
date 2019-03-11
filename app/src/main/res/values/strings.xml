@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AJICR</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_jornadas">Jornadas</string>
+    <string name="title_encuentros">Encuentros</string>
+    <string name="title_contacto">Contacto</string>
+
+    <string name="content_home">La Asociación de Jóvenes Investigadores en Ciencias de las Religiones (AJICR) es una asociación con carácter apartidista, aconfesional y laico creada por investigadores noveles que se encuentra inscrita en el Registro Nacional de Asociaciones del Ministerio del Interior con número nacional “611051”. AJICR tiene como fines:</string>
+    <string name="home_presentacion">Presentación</string>
+    <string name="title_activity_jornadas">AJICR - Jornadas</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+</resources>
