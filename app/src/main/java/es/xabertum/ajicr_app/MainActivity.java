@@ -6,21 +6,20 @@ import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
-import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity  implements BottomNavigationView.OnNavigationItemSelectedListener {
+public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.fragment_inicio);
+        setContentView(R.layout.activity_main);
 
         //loading the default fragment
-        loadFragment(new Fragment_Inicio());
+        loadFragment(new Fragment_inicio());
 
         //contentHome.setJustificationMode(JUSTIFICATION_MODE_INTER_WORD);
 
-        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
+        BottomNavigationView navigation = findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(this);
     }
     @Override
@@ -29,7 +28,7 @@ public class MainActivity extends AppCompatActivity  implements BottomNavigation
 
         switch (item.getItemId()) {
             case R.id.navigation_home:
-                fragment = new Fragment_Inicio();
+                fragment = new Fragment_inicio();
                 break;
 
             case R.id.navigation_jornadas:
@@ -41,7 +40,7 @@ public class MainActivity extends AppCompatActivity  implements BottomNavigation
     }
 
     private boolean loadFragment (Fragment fragment) {
-        // switching frament
+        // switching fragment
         if (fragment != null) {
             getSupportFragmentManager()
                     .beginTransaction()
