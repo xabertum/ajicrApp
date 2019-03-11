@@ -6,8 +6,28 @@
     <string name="title_contacto">Contacto</string>
     <string name="title_activity_jornadas">AJICR - Jornadas</string>
 
-    <string name="content_home">La Asociación de Jóvenes Investigadores en Ciencias de las Religiones (AJICR) es una asociación con carácter apartidista, aconfesional y laico creada por investigadores noveles que se encuentra inscrita en el Registro Nacional de Asociaciones del Ministerio del Interior con número nacional “611051”. AJICR tiene como fines:</string>
+    //Contenido de inicio
+
     <string name="home_presentacion">Presentación</string>
+    <string name="content_home">La Asociación de Jóvenes Investigadores en Ciencias de las Religiones (AJICR) es una asociación con carácter apartidista, aconfesional y laico creada por investigadores noveles que se encuentra inscrita en el Registro Nacional de Asociaciones del Ministerio del Interior con número nacional “611051”. AJICR tiene como fines:</string>
+    <string name="content_home1">· Crear un espacio de investigación en Ciencias de las Religiones.</string>
+    <string name="content_home2">· Fomentar la participación de investigadores noveles y la colaboración entre profesores e investigadores en cualquier rama relacionada con el estudio de las religiones.</string>
+    <string name="content_home3">· Promover un espacio común donde se permita intercambiar proyectos y estudios en los distintos ámbitos relacionados con el campo de las religiones.</string>
+    <string name="content_home4">· Impulsar la colaboración tanto a nivel nacional como internacional con asociaciones de investigadores de ciencias de las religiones y entre la comunidad científica</string>
+    <string name="content_home5">· Fomentar el desarrollo de estudios interdisciplinares mediante la colaboración y divulgación de las investigaciones.</string>
+    <string name="content_home6">Para el cumplimiento de estos fines se realizarán las siguientes actividades:</string>
+    <string name="content_home7">· Mesas redondas con una periodicidad establecida por el consejo de dirección de la asociación.</string>
+    <string name="content_home8">· Realizar un congreso anual que recoja proyectos de investigación.</string>
+    <string name="content_home9">· Divulgación de investigaciones, proyectos y actividades mediante las redes sociales e Internet.</string>
+    <string name="content_home10">· Generar un fondo bibliográfico común de apoyo a la investigación interdisciplinar de los temas relacionados con las ciencias de las religiones.</string>
+    <string name="content_home11">· Realizar seminarios para investigadoras e investigadores de diversos temas que puedan resultar interesantes para la profundización en el estudio de las religiones y diversos sistemas de creencias.</string>
+    <string name="content_home12">Toda nuestra actividad esta amparada por el Instituto Universitario de Ciencias de las Religiones de la Universidad Complutense de Madrid.</string>
+    <string name="content_home13">Puede consultar los estatutos de la Asociación de Jóvenes Investigadores en Ciencias de las Religiones pinchando en el siguiente enlace: &lt;a href=http://link1/terms>Estatutos AJICR&lt;/a></string>
+
+
+
+
+    // Contenido de Jornadas
 
 
 </resources>
