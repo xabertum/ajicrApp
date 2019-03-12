@@ -1,16 +1,1 @@
-package es.xabertum.ajicr_app;
-
-import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-
-public class Fragment_jornadas extends Fragment {
-    @Nullable
-    @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState ) {
-        return inflater.inflate(R.layout.fragment_jornadas, null);
-    }
-}
+package es.xabertum.ajicr_app;import android.os.Bundle;import android.support.annotation.Nullable;import android.support.v4.app.Fragment;import android.support.v7.widget.LinearLayoutManager;import android.support.v7.widget.RecyclerView;import android.view.LayoutInflater;import android.view.View;import android.view.ViewGroup;import java.util.ArrayList;import java.util.List;public class Fragment_jornadas extends Fragment {    RecyclerView recyclerView;    JornadaAdapter jornadaAdapter;    List<Jornada> jornadaList;    @Nullable    @Override    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState ) {        View view = inflater.inflate(R.layout.fragment_jornadas, null);        jornadaList = new ArrayList<>();        recyclerView = (RecyclerView) view.findViewById(R.id.recyclerView);        recyclerView.setHasFixedSize(true);        recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));        jornadaList.add(          new Jornada(                  "II Jornadas de Política y Religiones",                  "RELIGIONES Y EDUCACIÓN ¿POR QUÉ? ¿CÓMO?",                  R.drawable.politica_2_cropped,                  1          )        );        jornadaList.add(                new Jornada(                        "IV Jornadas Universitarias de AJICR: “La muerte sale de fiesta”",                        "Con motivo de la tradicional festividad de los difuntos compartida en Occidente, la Asociación decidió...",                        R.drawable.muerte_cropped,                        1                )        );        jornadaList.add(                new Jornada(                        "III Jornadas Universitarias de AJICR “Arte y Religiones: Simbología y Espacios de Culto.”",                        "A la luz de la incuestionable relevancia de los significados de los símbolos y manifestaciones artísticas...",                        R.drawable.arte_no_cropped,                        1                )        );        jornadaAdapter = new JornadaAdapter(getActivity(), jornadaList);        recyclerView.setAdapter(jornadaAdapter);        return view;    }}
