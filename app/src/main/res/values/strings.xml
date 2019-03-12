@@ -6,7 +6,7 @@
     <string name="title_contacto">Contacto</string>
     <string name="title_activity_jornadas">AJICR - Jornadas</string>
 
-    //Contenido de inicio
+    <!-- Contenido de inicio -->
 
     <string name="home_presentacion">Presentación</string>
     <string name="content_home">La Asociación de Jóvenes Investigadores en Ciencias de las Religiones (AJICR) es una asociación con carácter apartidista, aconfesional y laico creada por investigadores noveles que se encuentra inscrita en el <b>Registro Nacional de Asociaciones</b> del Ministerio del Interior con número nacional “611051”. AJICR tiene como fines:</string>
@@ -26,10 +26,20 @@
     <string name="content_home13">Puede consultar los estatutos de la Asociación de Jóvenes Investigadores en Ciencias de las Religiones pinchando en el siguiente enlace:</string>
     <string name="estatutos_link"><a href="https://ajicr.files.wordpress.com/2016/05/2_estatutos-ajicr-definitivos-sin-firmas.pdf">Estatutos AJICR</a></string>
 
+    <!-- Contenido de Jornadas -->
+
+    <string name="explorar">Explorar</string>
+
+    <!--  CARD 1 -->
+    <string name="card_1_title">II Jornadas de Política y Religiones</string>
+    <string name="card_1_content">RELIGIONES Y EDUCACIÓN ¿POR QUÉ? ¿CÓMO?</string>
+
+    <!-- CARD 2  -->
+    <string name="card_2_title">IV Jornadas Universitarias de AJICR: "La muerte sale de fiesta"</string>
+    <string name="card_2_content">Con motivo de la tradicional festividad de los difuntos compartida en Occidente, la Asociación decidió...</string>
 
 
 
-    // Contenido de Jornadas
 
 
 </resources>
