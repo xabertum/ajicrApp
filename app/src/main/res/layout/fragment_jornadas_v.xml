@@ -23,8 +23,8 @@
                 android:id="@+id/title_jornadas_v2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="16dp"
                 android:paddingStart="16dp"
+                android:paddingTop="8dp"
                 android:paddingEnd="16dp"
                 android:text="@string/title_jornadas_v"
                 android:textAlignment="textStart"
@@ -38,7 +38,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingStart="16dp"
+                android:paddingTop="8dp"
                 android:paddingEnd="16dp"
+                android:paddingBottom="8dp"
                 android:text="@string/subTitle_jornadas_v"
                 android:textAlignment="textStart"
                 android:textColor="@color/colorPrimaryDark"
@@ -71,6 +73,7 @@
                 android:lineSpacingExtra="1sp"
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
+                android:paddingBottom="8dp"
                 android:text="@string/content1_jornadas_v"
                 android:textColor="@color/colorPrimary" />
 
@@ -81,6 +84,7 @@
                 android:lineSpacingExtra="1sp"
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
+                android:paddingBottom="8dp"
                 android:text="@string/content2_jornadas_v"
                 android:textColor="@color/colorPrimary" />
 
@@ -90,6 +94,7 @@
                 android:layout_height="wrap_content"
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
+                android:paddingBottom="8dp"
                 android:text="@string/content3_jornadas_v"
                 android:textColor="@color/colorPrimary" />
 
@@ -99,6 +104,7 @@
                 android:layout_height="wrap_content"
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
+                android:paddingBottom="8dp"
                 android:text="@string/content4_jornadas_v"
                 android:textColor="@color/colorPrimary" />
 
@@ -109,6 +115,7 @@
                 android:lineSpacingExtra="1sp"
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
+                android:paddingBottom="8dp"
                 android:text="@string/content5_jornadas_v"
                 android:textColor="@color/colorPrimary" />
 
@@ -119,6 +126,7 @@
                 android:lineSpacingExtra="1sp"
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
+                android:paddingBottom="8dp"
                 android:text="@string/content6_jornadas_v"
                 android:textColor="@color/colorPrimary" />
 
@@ -129,6 +137,7 @@
                 android:lineSpacingExtra="1sp"
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
+                android:paddingBottom="8dp"
                 android:text="@string/content7_jornadas_v"
                 android:textColor="@color/colorPrimary" />
 

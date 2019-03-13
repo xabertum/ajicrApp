@@ -29,6 +29,8 @@
     <!-- Contenido de Jornadas -->
 
     <string name="explorar">Explorar</string>
+    <string name="card_1_title">Prueba</string>
+    <string name="card_1_content">prueba</string>
 
     <!--  Jornadas V -->
     <string name="title_jornadas_v">V Jornadas Universitarias de AJICR: “Política y Religiones”</string>

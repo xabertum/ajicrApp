@@ -1,11 +1,17 @@
 package es.xabertum.ajicr_app;
 
+import android.app.Activity;
 import android.content.Context;
+import android.content.ContextWrapper;
 import android.support.annotation.NonNull;
+import android.support.v4.app.Fragment;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
+import android.view.ContextThemeWrapper;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -29,13 +35,41 @@ public class JornadaAdapter extends RecyclerView.Adapter<JornadaAdapter.JornadaV
         return new JornadaViewHolder(view);
     }
 
+    private static AppCompatActivity unwrap(Context context) {
+        while (!(context instanceof Activity) && context instanceof ContextWrapper) {
+            context = ((ContextWrapper) context).getBaseContext();
+        }
+
+        return (AppCompatActivity) context;
+    }
+
     @Override
     public void onBindViewHolder(@NonNull JornadaViewHolder jornadaViewHolder, int i) {
-        Jornada jornada = jornadaList.get(i);
+        final Jornada jornada = jornadaList.get(i);
 
         jornadaViewHolder.cardTitle.setText(jornada.getCard_title());
         jornadaViewHolder.cardSubTitle.setText(jornada.getCard_subTitle());
         jornadaViewHolder.imageView.setImageDrawable(mCtx.getResources().getDrawable(jornada.getCard_image()));
+
+        jornadaViewHolder.explorar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (jornada.getId() == 1) {
+                    AppCompatActivity activity = unwrap(v.getContext());
+                    Fragment jornadasV = new Fragment_jornadas_v();
+                    activity.getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, jornadasV).addToBackStack(null).commit();
+                } else if (jornada.getId() == 2) {
+
+
+                }
+
+            }
+        });
+
+
+
+
 
     }
 
@@ -47,11 +81,13 @@ public class JornadaAdapter extends RecyclerView.Adapter<JornadaAdapter.JornadaV
     class JornadaViewHolder extends RecyclerView.ViewHolder {
 
         ImageView imageView;
+        Button explorar;
         TextView cardTitle, cardSubTitle;
 
         public JornadaViewHolder(@NonNull View itemView) {
             super(itemView);
 
+            explorar = itemView.findViewById(R.id.btn_explorar);
             imageView = itemView.findViewById(R.id.cardImage);
             cardTitle = itemView.findViewById(R.id.cardTitle);
             cardSubTitle = itemView.findViewById(R.id.cardSubTitle);
