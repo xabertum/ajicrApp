@@ -30,13 +30,19 @@
 
     <string name="explorar">Explorar</string>
 
-    <!--  CARD 1 -->
-    <string name="card_1_title">II Jornadas de Política y Religiones</string>
-    <string name="card_1_content">RELIGIONES Y EDUCACIÓN ¿POR QUÉ? ¿CÓMO?</string>
-
-    <!-- CARD 2  -->
-    <string name="card_2_title">IV Jornadas Universitarias de AJICR: "La muerte sale de fiesta"</string>
-    <string name="card_2_content">Con motivo de la tradicional festividad de los difuntos compartida en Occidente, la Asociación decidió...</string>
+    <!--  Jornadas V -->
+    <string name="title_jornadas_v">V Jornadas Universitarias de AJICR: “Política y Religiones”</string>
+    <string name="subTitle_jornadas_v">Religiones y Educación: ¿Por Qué? ¿Cómo?</string>
+    <string name="fecha_jornadas_v">20 de marzo de 2019</string>
+    <string name="content1_jornadas_v">La Asociación de Jóvenes Investigadores en Ciencias de las Religiones (AJICR), con sede en la Universidad Complutense de Madrid, en colaboración con el Foro Tender Puentes, desea plantear unas jornadas de reflexión política, sindical y académica sobre un sujeto tan importante como complejo y debatido a la hora de su articulación: la presencia del hecho religioso en el sistema educativo español. Desde este deseo de reflexión compartida y de contribución al debate  académico, político y social hemos organizado esta jornada universitaria abierta.</string>
+    <string name="content2_jornadas_v">El acto tendrá lugar el 20 de marzo de 2019 en la Sala de Juntas del Edificio A de la Facultad de Filología de la Universidad Complutense de Madrid.</string>
+    <string name="content3_jornadas_v">OBJETIVOS</string>
+    <string name="content4_jornadas_v"><li>Generar un espacio de debate entre la comunidad académica y la sociedad política y civil sobre la necesidad (o no) y la articulación del estudio de las religiones en la escuela.</li></string>
+    <string name="content5_jornadas_v"><li>Reflexionar sobre la necesidad e importancia de conocer el hecho religioso en la escuela como un contenido básico para favorecer la formación integral de la persona.</li></string>
+    <string name="content6_jornadas_v"><li>Conocer la evolución y las características del hecho religioso como medio idóneo para el desarrollo de una ciudadanía activa y participativa.</li></string>
+    <string name="content7_jornadas_v"><li>Concienciar sobre la importancia de espacios en las universidades españolas donde se formen alumnos capaces de analizar el hecho religioso explícitamente (Grados en Religiones), de manera aconfesional y en su complejidad</li></string>
+    <string name="content8_jornadas_v">La entrada es gratuita y libre hasta completar aforo. En el caso que se necesite o se quiera un certificado de asistencia (10 €) deberá rellenar el siguiente <a href="https://docs.google.com/forms/d/e/1FAIpQLSeLJTk8bvpAHBO9IBNrULllY5pyLWIw0icURCwubF8EV1UlCw/viewform">formulario</a>.</string>
+    <string name="content9_jornadas_v">Puedes descargar el programa completo pinchando <a href="https://ajicr.files.wordpress.com/2019/03/programa-definitivo-jornadas-religion-y-educacion-ajicr-tender-puentes.pdf">aquí</a>.</string>
 
 
 

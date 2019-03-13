@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:isScrollContainer="false"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_jornadas_v2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="@string/title_jornadas_v"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/subTitle_jornadas_v"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="@string/subTitle_jornadas_v"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="208dp"
+                app:srcCompat="@drawable/politica_2_foto" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_event_black_24dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="2dp"
+                android:text="@string/fecha_jornadas_v"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/content1_jornadas_v"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="1sp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="@string/content1_jornadas_v"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/content2_jornadas_v"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="1sp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="@string/content2_jornadas_v"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/content3_jornadas_v2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="@string/content3_jornadas_v"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/content4_jornadas_v2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="@string/content4_jornadas_v"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/content5_jornadas_v2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="1sp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="@string/content5_jornadas_v"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/content6_jornadas_v2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="1sp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="@string/content6_jornadas_v"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/content7_jornadas_v2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="1sp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="@string/content7_jornadas_v"
+                android:textColor="@color/colorPrimary" />
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.constraint.ConstraintLayout>
