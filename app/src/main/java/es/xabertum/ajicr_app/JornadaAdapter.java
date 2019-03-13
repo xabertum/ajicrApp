@@ -55,14 +55,19 @@ public class JornadaAdapter extends RecyclerView.Adapter<JornadaAdapter.JornadaV
             @Override
             public void onClick(View v) {
 
-                if (jornada.getId() == 1) {
-                    AppCompatActivity activity = unwrap(v.getContext());
-                    Fragment jornadasV = new Fragment_jornadas_v();
-                    activity.getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, jornadasV).addToBackStack(null).commit();
-                } else if (jornada.getId() == 2) {
+                switch (jornada.getId()) {
+                    case 1: {
+                        AppCompatActivity activity = unwrap(v.getContext());
+                        Fragment jornadasV = new Fragment_jornadas_v();
+                        activity.getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, jornadasV).addToBackStack(null).commit();
+                    }
+                    case 2: {
 
+                    }
 
                 }
+
+
 
             }
         });
