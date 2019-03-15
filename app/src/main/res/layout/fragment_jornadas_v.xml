@@ -174,10 +174,23 @@
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/politica_2_cartel" />
 
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="0dp"
+                android:text="@string/localizacionJornadasV"
+                android:textColor="@color/colorPrimary" />
+
             <com.google.android.gms.maps.MapView
                 android:id="@+id/mapView"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="200dp"
+                android:layout_margin="16dp"
+                android:layout_marginTop="0dp" />
 
 
         </LinearLayout>
