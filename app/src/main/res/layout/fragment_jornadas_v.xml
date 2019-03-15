@@ -10,7 +10,7 @@
         android:layout_height="match_parent"
         android:fillViewport="true"
         android:isScrollContainer="false"
-        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteX="170dp"
         tools:layout_editor_absoluteY="0dp">
 
         <LinearLayout
@@ -164,14 +164,15 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="16dp"
                 android:paddingEnd="16dp"
-                android:paddingBottom="8dp"
+                android:paddingBottom="4dp"
                 android:text="@string/cartelJornadasV"
                 android:textColor="@color/colorPrimary" />
 
             <ImageView
                 android:id="@+id/cartelJornadasV"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="521dp"
+                android:layout_margin="16dp"
                 app:srcCompat="@drawable/politica_2_cartel" />
 
             <TextView
@@ -185,12 +186,82 @@
                 android:text="@string/localizacionJornadasV"
                 android:textColor="@color/colorPrimary" />
 
+
             <com.google.android.gms.maps.MapView
                 android:id="@+id/mapView"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:layout_margin="16dp"
                 android:layout_marginTop="0dp" />
+
+            <TextView
+                android:id="@+id/transporte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="0dp"
+                android:text="@string/transporte"
+                android:textColor="@color/colorPrimary" />
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/relativeLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/transporte_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="8dp"
+                    android:paddingEnd="16dp"
+                    android:paddingBottom="0dp"
+                    android:text="@string/metro_ciudad_univ"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="12sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/linea6"
+                    android:layout_width="21dp"
+                    android:layout_height="21dp"
+                    android:layout_marginStart="115dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="11dp"
+                    app:layout_constraintEnd_toStartOf="@+id/transporte_2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/linea_6" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="38dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/transporte_2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/metro_madrid_logo" />
+
+                <TextView
+                    android:id="@+id/transporte_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="8dp"
+                    android:paddingEnd="16dp"
+                    android:paddingBottom="0dp"
+                    android:text="@string/metro"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="12sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </android.support.constraint.ConstraintLayout>
 
 
         </LinearLayout>

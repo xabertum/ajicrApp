@@ -38,6 +38,9 @@
     <string name="fecha_jornadas_v">Fecha realización - 20 de marzo de 2019</string>
     <string name="cartelJornadasV">Cartel de las Jornadas: </string>
     <string name="localizacionJornadasV">Localización: </string>
+    <string name="transporte">Transporte: </string>
+    <string name="metro">Metro: Circular</string>
+    <string name="metro_ciudad_univ">Ciudad Universitaria</string>
 
     <string name="content1_jornadas_v">La Asociación de Jóvenes Investigadores en Ciencias de las Religiones (AJICR), con sede en la Universidad Complutense de Madrid, en colaboración con el Foro Tender Puentes, desea plantear unas jornadas de reflexión política, sindical y académica sobre un sujeto tan importante como complejo y debatido a la hora de su articulación: la presencia del hecho religioso en el sistema educativo español. Desde este deseo de reflexión compartida y de contribución al debate  académico, político y social hemos organizado esta jornada universitaria abierta.</string>
     <string name="content2_jornadas_v">El acto tendrá lugar el 20 de marzo de 2019 en la Sala de Juntas del Edificio A de la Facultad de Filología de la Universidad Complutense de Madrid.</string>
