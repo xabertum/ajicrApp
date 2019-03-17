@@ -54,18 +54,24 @@ public class RecyclerViewAdapater extends RecyclerView.Adapter<RecyclerViewAdapa
         jornadaViewHolder.explorar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                AppCompatActivity activity = unwrap(v.getContext());
+
                 switch (jornadaList.get(jornadaViewHolder.getAdapterPosition()).getId()) {
                     case 1: {
-                        AppCompatActivity activity = unwrap(v.getContext());
                         Fragment jornadasV = new Fragment_jornadas_v();
                         activity.getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, jornadasV).addToBackStack(null).commit();
                         break;
                     }
                     case 2: {
-                        AppCompatActivity activity = unwrap(v.getContext());
                         Fragment jornadas_4 = new Fragment_jornadas_4();
                         activity.getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, jornadas_4).addToBackStack(null).commit();
                         break;
+                    }
+                    case 3: {
+                        Fragment jornadas_3 = new Fragment_jornadas_3();
+                        activity.getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, jornadas_3).addToBackStack(null).commit();
+                        break;
+
                     }
 
                 }
