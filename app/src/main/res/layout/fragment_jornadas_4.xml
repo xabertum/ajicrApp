@@ -51,7 +51,7 @@
                 android:id="@+id/imageView"
                 android:layout_width="wrap_content"
                 android:layout_height="208dp"
-                app:srcCompat="@drawable/politica_2_foto" />
+                app:srcCompat="@drawable/portada_j4" />
 
             <RelativeLayout
                 android:layout_width="wrap_content"
@@ -72,90 +72,20 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="40dp"
                     android:paddingStart="2dp"
-                    android:text="@string/fecha_jornadas_v"
+                    android:text="@string/fecha_jornadas_4"
                     android:textSize="12sp" />
 
             </RelativeLayout>
 
             <TextView
-                android:id="@+id/content1_jornadas_v"
+                android:id="@+id/content1_jornadas_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="1sp"
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
                 android:paddingBottom="8dp"
-                android:text="@string/content1_jornadas_v"
-                android:textColor="@color/colorPrimary" />
-
-            <TextView
-                android:id="@+id/content2_jornadas_v"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:lineSpacingExtra="1sp"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp"
-                android:paddingBottom="8dp"
-                android:text="@string/content2_jornadas_v"
-                android:textColor="@color/colorPrimary" />
-
-            <TextView
-                android:id="@+id/content3_jornadas_v2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp"
-                android:paddingBottom="8dp"
-                android:text="@string/content3_jornadas_v"
-                android:textAlignment="gravity"
-                android:textColor="@color/colorPrimary" />
-
-            <TextView
-                android:id="@+id/content4_jornadas_v2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="37dp"
-                android:paddingStart="0dp"
-                android:paddingEnd="16dp"
-                android:paddingBottom="8dp"
-                android:text="@string/content4_jornadas_v"
-                android:textColor="@color/colorPrimary" />
-
-            <TextView
-                android:id="@+id/content5_jornadas_v2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="37dp"
-                android:lineSpacingExtra="1sp"
-                android:paddingStart="0dp"
-                android:paddingEnd="16dp"
-                android:paddingBottom="8dp"
-                android:text="@string/content5_jornadas_v"
-                android:textColor="@color/colorPrimary" />
-
-            <TextView
-                android:id="@+id/content6_jornadas_v2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="37dp"
-                android:lineSpacingExtra="1sp"
-                android:paddingStart="0dp"
-                android:paddingEnd="16dp"
-                android:paddingBottom="8dp"
-                android:text="@string/content6_jornadas_v"
-                android:textColor="@color/colorPrimary" />
-
-            <TextView
-                android:id="@+id/content7_jornadas_v2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="37dp"
-                android:lineSpacingExtra="1sp"
-                android:paddingStart="0dp"
-                android:paddingEnd="16dp"
-                android:paddingBottom="8dp"
-                android:text="@string/content7_jornadas_v"
+                android:text="@string/content1_jornadas_4"
                 android:textColor="@color/colorPrimary" />
 
             <TextView
@@ -174,144 +104,6 @@
                 android:layout_height="521dp"
                 android:layout_margin="16dp"
                 app:srcCompat="@drawable/politica_2_cartel" />
-
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingLeft="16dp"
-                android:paddingTop="8dp"
-                android:paddingEnd="16dp"
-                android:paddingBottom="0dp"
-                android:text="@string/localizacionJornadasV"
-                android:textColor="@color/colorPrimary" />
-
-
-
-
-            <TextView
-                android:id="@+id/transporte"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingLeft="16dp"
-                android:paddingTop="8dp"
-                android:paddingEnd="16dp"
-                android:paddingBottom="0dp"
-                android:text="@string/transporte"
-                android:textColor="@color/colorPrimary" />
-
-            <TextView
-                android:id="@+id/metro2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingStart="32dp"
-                android:paddingTop="8dp"
-                android:paddingBottom="0dp"
-                android:text="@string/metro_2"
-                android:textColor="@color/colorPrimary"
-                android:textSize="13sp" />
-
-            <LinearLayout
-                android:id="@+id/LinearLayout"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/transporte_3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="40dp"
-                    android:paddingTop="8dp"
-                    android:paddingEnd="8dp"
-                    android:paddingBottom="0dp"
-                    android:text="@string/circular"
-                    android:textColor="@color/colorPrimary"
-                    android:textSize="12sp" />
-
-                <ImageView
-                    android:id="@+id/linea6"
-                    android:layout_width="21dp"
-                    android:layout_height="21dp"
-                    android:layout_marginTop="7dp"
-                    app:layout_constraintEnd_toStartOf="@+id/transporte_2"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/linea_6" />
-
-                <TextView
-                    android:id="@+id/transporte_2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="32dp"
-                    android:paddingTop="8dp"
-                    android:paddingEnd="8dp"
-                    android:paddingBottom="0dp"
-                    android:text="@string/metro_ciudad_univ"
-                    android:textColor="@color/colorPrimary"
-                    android:textSize="12sp" />
-
-                <ImageView
-                    android:id="@+id/imageView4"
-                    android:layout_width="38dp"
-                    android:layout_height="24dp"
-                    android:layout_marginTop="7dp"
-                    app:layout_constraintStart_toEndOf="@+id/transporte_2"
-                    app:layout_constraintTop_toTopOf="@+id/transporte_3"
-                    app:srcCompat="@drawable/metro_madrid_logo" />
-
-            </LinearLayout>
-
-            <TextView
-                android:id="@+id/autobuses"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingStart="32dp"
-                android:paddingTop="8dp"
-                android:paddingBottom="0dp"
-                android:text="@string/autobuses"
-                android:textColor="@color/colorPrimary"
-                android:textSize="13sp" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/autobuses_1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="40dp"
-                    android:paddingTop="8dp"
-                    android:paddingEnd="8dp"
-                    android:paddingBottom="0dp"
-                    android:text="@string/autobuses_lineas"
-                    android:textColor="@color/colorPrimary"
-                    android:textSize="12sp" />
-
-                <ImageView
-                    android:id="@+id/autobuses_logo"
-                    android:layout_width="32dp"
-                    android:layout_height="32dp"
-                    app:layout_constraintEnd_toStartOf="@+id/transporte_2"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/comollegarbus" />
-
-                <TextView
-                    android:id="@+id/autobuses_"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="32dp"
-                    android:layout_weight="1"
-                    android:paddingTop="8dp"
-                    android:paddingEnd="8dp"
-                    android:paddingBottom="0dp"
-                    android:text="@string/autobuses_parada"
-                    android:textColor="@color/colorPrimary"
-                    android:textSize="12sp" />
-            </LinearLayout>
 
 
         </LinearLayout>

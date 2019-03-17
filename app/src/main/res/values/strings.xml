@@ -56,6 +56,19 @@
     <string name="content8_jornadas_v">La entrada es gratuita y libre hasta completar aforo. En el caso que se necesite o se quiera un certificado de asistencia (10 €) deberá rellenar el siguiente <a href="https://docs.google.com/forms/d/e/1FAIpQLSeLJTk8bvpAHBO9IBNrULllY5pyLWIw0icURCwubF8EV1UlCw/viewform">formulario</a>.</string>
     <string name="content9_jornadas_v">Puedes descargar el programa completo pinchando <a href="https://ajicr.files.wordpress.com/2019/03/programa-definitivo-jornadas-religion-y-educacion-ajicr-tender-puentes.pdf">aquí</a>.</string>
 
+    <!-- Jornadas IV -->
+    <string name="title_jornadas_4">IV Jornadas Universitarias de AJICR: “La muerte sale de fiesta”</string>
+    <string name="subtitle_jornadas_4"></string>
+    <string name="fecha_jornadas_4">Fecha realización - 31 de Octubre de 2018</string>
+
+    <string name="content1_jornadas_4">Con motivo de la tradicional festividad de los difuntos compartida en Occidente, la Asociación decidió dedicar sus IV Jornadas AJICR, celebradas el día 31 de octubre de 2018, al tratamiendo te la muerte, las actitudes ante ella y las festividades de los muertos en las diferentes religiones presentes y pretéritas, para lo cual contó con la participación de algunos de sus socios y de otros investigadores universitarios más avezados, como se puede comprobar en su programa.</string>
+    <string name="programa_jornadas4_link"><a href="https://ajicr.files.wordpress.com/2016/05/2_estatutos-ajicr-definitivos-sin-firmas.pdf">Programa IV Jornadas</a></string>
+
+    <string name="content2_jornadas_4"></string>
+    <string name="content3_jornadas_4"></string>
+    <string name="content4_jornadas_4"></string>
+    <string name="content5_jornadas_4"></string>
+    <string name="content6_jornadas_4"></string>
 
 
 
