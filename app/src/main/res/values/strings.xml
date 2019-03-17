@@ -46,7 +46,6 @@
     <string name="autobuses">Autobuses: </string>
     <string name="autobuses_lineas">Lineas F y G</string>
     <string name="autobuses_parada">Parada 4290, Profesor Aranguren-Filosofía y Letras</string>
-
     <string name="content1_jornadas_v">La Asociación de Jóvenes Investigadores en Ciencias de las Religiones (AJICR), con sede en la Universidad Complutense de Madrid, en colaboración con el <b>Foro Tender Puentes</b>, desea plantear unas jornadas de reflexión política, sindical y académica sobre un sujeto tan importante como complejo y debatido a la hora de su articulación: la presencia del hecho religioso en el sistema educativo español. Desde este deseo de reflexión compartida y de contribución al debate  académico, político y social hemos organizado esta jornada universitaria abierta.</string>
     <string name="content2_jornadas_v">El acto tendrá lugar el 20 de marzo de 2019 en la Sala de Juntas del Edificio A de la Facultad de Filología de la Universidad Complutense de Madrid.</string>
     <string name="content3_jornadas_v">OBJETIVOS</string>
@@ -62,14 +61,12 @@
     <string name="title_jornadas_4">IV Jornadas Universitarias de AJICR: “La muerte sale de fiesta”</string>
     <string name="subtitle_jornadas_4"></string>
     <string name="fecha_jornadas_4">Fecha realización - 31 de Octubre de 2018</string>
-
     <string name="content1_jornadas_4">Con motivo de la tradicional festividad de los difuntos compartida en Occidente, la Asociación decidió dedicar sus IV Jornadas AJICR, celebradas el día 31 de octubre de 2018, al tratamiendo te la muerte, las actitudes ante ella y las festividades de los muertos en las diferentes religiones presentes y pretéritas, para lo cual contó con la participación de algunos de sus socios y de otros investigadores universitarios más avezados, como se puede comprobar en su programa.</string>
     <string name="programa_jornadas4_link"><a href="https://ajicr.files.wordpress.com/2018/10/programa-iv-jornadas-ajicr.pdf">Programa IV Jornadas</a></string>
 
     <!-- Jornadas III -->
     <string name="title_jornadas_3">III Jornadas Universitarias de AJICR: “Arte y Religiones: Simbología y Espacios de Culto”</string>
     <string name="fecha_jornadas_3">Fecha realización - 17 y 18 de Enero de 2018</string>
-
     <string name="content1_jornadas_3">A la luz de la incuestionable relevancia de los significados de los símbolos y manifestaciones artísticas que han estado tan íntimamente relacionadas con el hecho religioso a lo largo de la historia, puede llegar a considerarse el arte como un gran aliado a la hora de expresar no solo diferentes cosmologías y cosmovisiones, sino también todo un entendimiento de conceptos tan abstractos como puede ser la trascendencia, la muerte, la vida, y un sinfín de ejemplos que rodean a aquellos actores y actrices sociales pertenecientes a una realidad sociocultural caracterizada por poseer, en mayor o menor medida, manifestaciones religiosas públicas y/o privadas.</string>
     <string name="content2_jornadas_3">Dada la existencia de este factor, resulta imposible no tenerlo en cuenta a la hora de tratar de desentrañar los significados de las diferentes religiones del mundo, y es por ello que desde la Asociación de Jóvenes Investigadores en Ciencias de las Religiones (AJICR) se han organizado unas nuevas Jornadas Universitarias que abarcan esta temática. Nos complace por tanto anunciar unas nuevas Jornadas para los días <b>17 y 18 del mes de Enero de 2018</b>.</string>
     <string name="content3_jornadas_3">En esta ocasión, nos encontramos ante unas <b>III JUA</b> cuya temática versará sobre <b>Religiones y Arte</b>, y que abarcará la interesante cuestión de la simbología religiosa, lugares de culto, así como las diferentes manifestaciones artísticas en relación con el ámbito religioso.</string>
@@ -78,7 +75,21 @@
     <string name="content6_jornadas_3">Puede consultar el <b>programa</b> del evento siguiendo el siguiente enlace: </string>
     <string name="programa_jornadas3_link"><a href="https://ajicr.files.wordpress.com/2017/11/programa_iii_jornadas_ajicr__e2809carte2.pdf">Programa III Jornadas</a></string>
 
-
+    <!-- Jornadas II -->
+    <string name="title_jornadas_2">II Jornadas Universitarias de AJICR: “Voces de Religiones y de Políticas en la Esfera Pública”</string>
+    <string name="fecha_jornadas_2">Fecha realización - 7 de Junio de 2017</string>
+    <string name="content1_jornadas2">El día <b>7 de Junio de 2017</b> se han celebrado, en el Salón de Actos de la <b>Facultad de Filología de la Universidad Complutense de Madrid</b> (Edificio D) , nuestras <b>II Jornadas Universitarias</b>, cuyo título <i>“Voces de Religiones y de Políticas en la Esfera Pública“</i>. Nos sentimos muy orgullosos de haber ofrecido un interesante evento en el que la reflexión académica desde nuestra disciplina, las Ciencias de las Religiones, se ha acompañado de espacios de encuentro y diálogo entre representantes religiosos y políticos. Además hemos ofrecido un espacio plural y abierto de debate en el que ha fructificado la comunicación.</string>
+    <string name="content2_jornadas2">Mesa religiosa:</string>
+    <string name="content3_jornadas2"><li><b>D. Carlos Osoro</b> (Cardenal-Arzobispo de Madrid).</li></string>
+    <string name="content4_jornadas2"><li><b>D. Riay Tatary</b> (Presidente de Unión de Comunidades Islámicas de España (UCIDE)).</li></string>
+    <string name="content5_jornadas2"><li><b>D. Mariano Blázquez</b> (Secretario ejecutivo de la Federación de Entidades Religiosas Evangélicas de España (FEREDE)).</li></string>
+    <string name="content6_jornadas2"><li><b>D. Enrique Caputo</b> (Presidente de la Federación de Comunidades Budistas de España (FCBE)).</li></string>
+    <string name="content7_jornadas2"><li><b>D. Isaac Querub</b> (Presidente de la Federación de Comunidades Judías de España (FCJE)).</li></string>
+    <string name="content8_jornadas2">Mesa Política:</string>
+    <string name="content9_jornadas2"><li><b>Dña. Beatriz Elgorriaga</b> (Senadora del Partido Popular).</li></string>
+    <string name="content10_jornadas2"><li><b>D. Carlos García de Andoin</b> (Asesor en laicidad y política religiosa del Partido Socialista Obrero Español).</li></string>
+    <string name="content11_jornadas2"><li><b>D. José Manuel López</b> (Diputado de la Asamblea de Madrid, del partido Podemos).</li></string>
+    <string name="content12_jornadas2"><li><b>D. Juan Trinidad</b> (Vicepresidente primero de la Mesa de la Asamblea de Madrid, del partido Ciudadanos).</li></string>
 
 
 </resources>

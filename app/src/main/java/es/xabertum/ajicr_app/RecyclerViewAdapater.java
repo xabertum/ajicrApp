@@ -73,6 +73,11 @@ public class RecyclerViewAdapater extends RecyclerView.Adapter<RecyclerViewAdapa
                         break;
 
                     }
+                    case 4: {
+                        Fragment jornadas_2 = new Fragment_jornadas_2();
+                        activity.getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, jornadas_2).addToBackStack(null).commit();
+                        break;
+                    }
 
                 }
 
