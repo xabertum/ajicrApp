@@ -28,7 +28,7 @@ public class Fragment_jornadas_v extends Fragment implements OnMapReadyCallback 
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState ) {
 
-        jornadasV = inflater.inflate(R.layout.fragment_jornadas_v, null);
+        jornadasV = inflater.inflate(R.layout.fragment_jornadas_v,container,false);
         return jornadasV;
     }
 

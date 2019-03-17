@@ -11,12 +11,11 @@ public class Fragment_jornadas_4 extends Fragment {
 
     View jornadas_4;
 
-
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState ) {
 
-        jornadas_4 = inflater.inflate(R.layout.fragment_jornadas_4, null);
+        jornadas_4 = inflater.inflate(R.layout.fragment_jornadas_4,container, false);
         return jornadas_4;
     }
 }
