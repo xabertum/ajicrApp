@@ -27,30 +27,19 @@
                 android:paddingStart="16dp"
                 android:paddingTop="8dp"
                 android:paddingEnd="16dp"
-                android:text="@string/title_jornadas_v"
+                android:text="@string/title_jornadas_4"
                 android:textAlignment="textStart"
                 android:textAllCaps="false"
                 android:textColor="@color/colorPrimary"
                 android:textSize="20sp"
                 android:textStyle="normal|bold" />
 
-            <TextView
-                android:id="@+id/subTitle_jornadas_v"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingStart="16dp"
-                android:paddingTop="8dp"
-                android:paddingEnd="16dp"
-                android:paddingBottom="8dp"
-                android:text="@string/subTitle_jornadas_v"
-                android:textAlignment="textStart"
-                android:textColor="@color/colorPrimaryDark"
-                android:textSize="14sp" />
-
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="wrap_content"
                 android:layout_height="208dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
                 app:srcCompat="@drawable/portada_j4" />
 
             <RelativeLayout
@@ -89,9 +78,21 @@
                 android:textColor="@color/colorPrimary" />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/link_progama_j4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="4dp"
+                android:text="@string/programa_jornadas4_link"
+                android:textColor="@color/colorLink"
+                android:textColorLink="@color/colorLink" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
                 android:paddingLeft="16dp"
                 android:paddingEnd="16dp"
                 android:paddingBottom="4dp"
@@ -99,11 +100,11 @@
                 android:textColor="@color/colorPrimary" />
 
             <ImageView
-                android:id="@+id/cartelJornadasV"
+                android:id="@+id/cartel_jornadas_4"
                 android:layout_width="match_parent"
                 android:layout_height="521dp"
                 android:layout_margin="16dp"
-                app:srcCompat="@drawable/politica_2_cartel" />
+                app:srcCompat="@drawable/cartel_jornadas_4" />
 
 
         </LinearLayout>

@@ -350,7 +350,6 @@
                 app:layout_constraintVertical_chainStyle="packed" />
 
 
-
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 

@@ -20,11 +20,6 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         //loading the default fragment
         loadFragment(new Fragment_inicio());
 
-        //contentHome.setJustificationMode(JUSTIFICATION_MODE_INTER_WORD);
-
-
-
-
         BottomNavigationView navigation = findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(this);
     }
