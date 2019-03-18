@@ -21,6 +21,7 @@ public class RecyclerViewAdapater extends RecyclerView.Adapter<RecyclerViewAdapa
     private Context mCtx;
     private List<Jornada> jornadaList;
 
+
     public RecyclerViewAdapater(Context mCtx, List<Jornada> jornadaList) {
         this.mCtx = mCtx;
         this.jornadaList = jornadaList;
@@ -35,14 +36,6 @@ public class RecyclerViewAdapater extends RecyclerView.Adapter<RecyclerViewAdapa
         return jornadaViewHolder;
     }
 
-    private static AppCompatActivity unwrap(Context context) {
-        while (!(context instanceof Activity) && context instanceof ContextWrapper) {
-            context = ((ContextWrapper) context).getBaseContext();
-        }
-
-        return (AppCompatActivity) context;
-    }
-
     @Override
     public void onBindViewHolder(@NonNull final JornadaViewHolder jornadaViewHolder, int i) {
         Jornada jornada = jornadaList.get(i);
@@ -50,43 +43,48 @@ public class RecyclerViewAdapater extends RecyclerView.Adapter<RecyclerViewAdapa
         jornadaViewHolder.cardTitle.setText(jornada.getCard_title());
         jornadaViewHolder.cardSubTitle.setText(jornada.getCard_subTitle());
         jornadaViewHolder.imageView.setImageDrawable(mCtx.getResources().getDrawable(jornada.getCard_image()));
-
         jornadaViewHolder.explorar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 AppCompatActivity activity = unwrap(v.getContext());
 
                 switch (jornadaList.get(jornadaViewHolder.getAdapterPosition()).getId()) {
                     case 1: {
                         Fragment jornadasV = new Fragment_jornadas_v();
-                        activity.getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, jornadasV).addToBackStack(null).commit();
+                        activity.getSupportFragmentManager().beginTransaction()
+                                .replace(R.id.fragment_container, jornadasV)
+                                .addToBackStack(null).commit();
                         break;
                     }
                     case 2: {
                         Fragment jornadas_4 = new Fragment_jornadas_4();
-                        activity.getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, jornadas_4).addToBackStack(null).commit();
+                        activity.getSupportFragmentManager().beginTransaction()
+                                .replace(R.id.fragment_container, jornadas_4)
+                                .addToBackStack(null).commit();
                         break;
                     }
                     case 3: {
                         Fragment jornadas_3 = new Fragment_jornadas_3();
-                        activity.getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, jornadas_3).addToBackStack(null).commit();
+                        activity.getSupportFragmentManager().beginTransaction()
+                                .replace(R.id.fragment_container, jornadas_3)
+                                .addToBackStack(null).commit();
                         break;
 
                     }
                     case 4: {
                         Fragment jornadas_2 = new Fragment_jornadas_2();
-                        activity.getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, jornadas_2).addToBackStack(null).commit();
+                        activity.getSupportFragmentManager().beginTransaction()
+                                .replace(R.id.fragment_container, jornadas_2)
+                                .addToBackStack(null).commit();
                         break;
                     }
 
                 }
-
             }
         });
 
-
      }
-
 
     @Override
     public int getItemCount() {
@@ -110,5 +108,12 @@ public class RecyclerViewAdapater extends RecyclerView.Adapter<RecyclerViewAdapa
         }
     }
 
+    private static AppCompatActivity unwrap(Context context) {
+        while (!(context instanceof Activity) && context instanceof ContextWrapper) {
+            context = ((ContextWrapper) context).getBaseContext();
+        }
+
+        return (AppCompatActivity) context;
+    }
 
 }

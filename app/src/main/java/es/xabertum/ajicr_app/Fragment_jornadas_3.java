@@ -17,7 +17,7 @@ public class Fragment_jornadas_3 extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState ) {
 
-        jornadas_3 = inflater.inflate(R.layout.fragment_jornadas_3,container, false);
+        jornadas_3 = inflater.inflate(R.layout.fragment_jornadas_3,null);
 
         TextView estatutosLink = jornadas_3.findViewById(R.id.link_progama_j3);
         estatutosLink.setMovementMethod(LinkMovementMethod.getInstance());
