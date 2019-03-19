@@ -51,9 +51,9 @@ public class RecyclerViewAdapater extends RecyclerView.Adapter<RecyclerViewAdapa
 
                 switch (jornadaList.get(jornadaViewHolder.getAdapterPosition()).getId()) {
                     case 1: {
-                        Fragment jornadasV = new Fragment_jornadas_v();
+                        Fragment jornadas_5 = new Fragment_jornadas_v();
                         activity.getSupportFragmentManager().beginTransaction()
-                                .replace(R.id.fragment_container, jornadasV)
+                                .replace(R.id.fragment_container, jornadas_5)
                                 .addToBackStack(null).commit();
                         break;
                     }

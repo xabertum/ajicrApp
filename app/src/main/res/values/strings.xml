@@ -90,6 +90,9 @@
     <string name="content10_jornadas2"><li><b>D. Carlos García de Andoin</b> (Asesor en laicidad y política religiosa del Partido Socialista Obrero Español).</li></string>
     <string name="content11_jornadas2"><li><b>D. José Manuel López</b> (Diputado de la Asamblea de Madrid, del partido Podemos).</li></string>
     <string name="content12_jornadas2"><li><b>D. Juan Trinidad</b> (Vicepresidente primero de la Mesa de la Asamblea de Madrid, del partido Ciudadanos).</li></string>
+    <string name="title_activity_jornadas5">ActivityJornadas5</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 
 
 </resources>

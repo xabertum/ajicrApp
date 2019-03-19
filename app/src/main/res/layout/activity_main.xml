@@ -8,22 +8,19 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
-    <android.support.v4.widget.NestedScrollView
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fillViewport="true">
 
-        <LinearLayout
+        <FrameLayout
             android:id="@+id/fragment_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
+            android:orientation="vertical">
 
-            >
-
-        </LinearLayout>
-    </android.support.v4.widget.NestedScrollView>
+        </FrameLayout>
+    </ScrollView>
 
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/navigation"
