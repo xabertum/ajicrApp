@@ -30,26 +30,29 @@ public class RecyclerViewAdapater extends RecyclerView.Adapter<RecyclerViewAdapa
     @NonNull
     @Override
     public JornadaViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
+
         LayoutInflater inflater = LayoutInflater.from(mCtx);
         View view = inflater.inflate(R.layout.card_jornadas, null);
         JornadaViewHolder jornadaViewHolder = new JornadaViewHolder(view);
+
         return jornadaViewHolder;
     }
 
     @Override
     public void onBindViewHolder(@NonNull final JornadaViewHolder jornadaViewHolder, int i) {
-        Jornada jornada = jornadaList.get(i);
 
+        final Jornada jornada = jornadaList.get(i);
         jornadaViewHolder.cardTitle.setText(jornada.getCard_title());
         jornadaViewHolder.cardSubTitle.setText(jornada.getCard_subTitle());
         jornadaViewHolder.imageView.setImageDrawable(mCtx.getResources().getDrawable(jornada.getCard_image()));
+
         jornadaViewHolder.explorar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 AppCompatActivity activity = unwrap(v.getContext());
 
-                switch (jornadaList.get(jornadaViewHolder.getAdapterPosition()).getId()) {
+                switch (jornada.getId()) {
                     case 1: {
                         Fragment jornadas_5 = new Fragment_jornadas_v();
                         activity.getSupportFragmentManager().beginTransaction()
@@ -110,7 +113,6 @@ public class RecyclerViewAdapater extends RecyclerView.Adapter<RecyclerViewAdapa
             imageView = itemView.findViewById(R.id.cardImage);
             cardTitle = itemView.findViewById(R.id.cardTitle);
             cardSubTitle = itemView.findViewById(R.id.cardSubTitle);
-
         }
     }
 
