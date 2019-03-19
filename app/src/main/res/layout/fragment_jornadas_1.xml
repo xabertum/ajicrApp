@@ -74,7 +74,7 @@
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
                 android:paddingBottom="16dp"
-                android:text="@string/content1_jornadas_1"
+                android:text="@string/content_1_jornadas_1"
                 android:textColor="@color/colorPrimary" />
 
             <TextView

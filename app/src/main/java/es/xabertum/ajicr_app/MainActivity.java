@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
                 break;
 
             case R.id.navigation_jornadas:
-                fragment = new Fragment_CardView();
+                fragment = new FragmentCardView();
                 break;
         }
 
