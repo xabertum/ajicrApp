@@ -21,13 +21,13 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/title_jornadas_v2"
+                android:id="@+id/title_jornadas1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingStart="16dp"
                 android:paddingTop="8dp"
                 android:paddingEnd="16dp"
-                android:text="@string/title_jornadas_2"
+                android:text="@string/title_jornadas_1"
                 android:textAlignment="textStart"
                 android:textAllCaps="false"
                 android:textColor="@color/colorPrimary"
@@ -67,135 +67,14 @@
             </RelativeLayout>
 
             <TextView
-                android:id="@+id/content1_jornadas_2"
+                android:id="@+id/content1_jornadas_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="1sp"
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
                 android:paddingBottom="16dp"
-                android:text="@string/content1_jornadas2"
-                android:textColor="@color/colorPrimary" />
-
-            <TextView
-                android:id="@+id/content2_jornadas_2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:lineSpacingExtra="1sp"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp"
-                android:paddingBottom="16dp"
-                android:text="@string/content2_jornadas2"
-                android:textColor="@color/colorPrimary" />
-
-            <TextView
-                android:id="@+id/content7_jornadas_2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:lineSpacingExtra="1sp"
-                android:paddingStart="37dp"
-                android:paddingEnd="16dp"
-                android:paddingBottom="16dp"
-                android:text="@string/content7_jornadas2"
-                android:textColor="@color/colorPrimary" />
-
-            <TextView
-                android:id="@+id/content4_jornadas_2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:lineSpacingExtra="1sp"
-                android:paddingStart="37dp"
-                android:paddingEnd="16dp"
-                android:paddingBottom="16dp"
-                android:text="@string/content4_jornadas2"
-                android:textColor="@color/colorPrimary" />
-
-            <TextView
-                android:id="@+id/content3_jornadas_2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:lineSpacingExtra="1sp"
-                android:paddingStart="37dp"
-                android:paddingEnd="16dp"
-                android:paddingBottom="16dp"
-                android:text="@string/content3_jornadas2"
-                android:textColor="@color/colorPrimary" />
-
-            <TextView
-                android:id="@+id/content6_jornadas_2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:lineSpacingExtra="1sp"
-                android:paddingStart="37dp"
-                android:paddingEnd="16dp"
-                android:paddingBottom="16dp"
-                android:text="@string/content6_jornadas2"
-                android:textColor="@color/colorPrimary" />
-
-            <TextView
-                android:id="@+id/content5_jornadas_2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:lineSpacingExtra="1sp"
-                android:paddingStart="37dp"
-                android:paddingEnd="16dp"
-                android:paddingBottom="16dp"
-                android:text="@string/content5_jornadas2"
-                android:textColor="@color/colorPrimary" />
-
-            <TextView
-                android:id="@+id/content8_jornadas_2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:lineSpacingExtra="1sp"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp"
-                android:paddingBottom="16dp"
-                android:text="@string/content8_jornadas2"
-                android:textColor="@color/colorPrimary" />
-
-            <TextView
-                android:id="@+id/content9_jornadas_2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:lineSpacingExtra="1sp"
-                android:paddingStart="37dp"
-                android:paddingEnd="16dp"
-                android:paddingBottom="16dp"
-                android:text="@string/content9_jornadas2"
-                android:textColor="@color/colorPrimary" />
-
-            <TextView
-                android:id="@+id/content10_jornadas_2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:lineSpacingExtra="1sp"
-                android:paddingStart="37dp"
-                android:paddingEnd="16dp"
-                android:paddingBottom="16dp"
-                android:text="@string/content10_jornadas2"
-                android:textColor="@color/colorPrimary" />
-
-            <TextView
-                android:id="@+id/content11_jornadas_2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:lineSpacingExtra="1sp"
-                android:paddingStart="37dp"
-                android:paddingEnd="16dp"
-                android:paddingBottom="16dp"
-                android:text="@string/content11_jornadas2"
-                android:textColor="@color/colorPrimary" />
-
-            <TextView
-                android:id="@+id/content12_jornadas_2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:lineSpacingExtra="1sp"
-                android:paddingStart="37dp"
-                android:paddingEnd="16dp"
-                android:paddingBottom="16dp"
-                android:text="@string/content12_jornadas2"
+                android:text="@string/content1_jornadas_1"
                 android:textColor="@color/colorPrimary" />
 
             <TextView
@@ -214,7 +93,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="521dp"
                 android:layout_margin="16dp"
-                app:srcCompat="@drawable/cartel_jornadas_2" />
+                app:srcCompat="@drawable/cartel_jornadas_1" />
 
 
         </LinearLayout>
