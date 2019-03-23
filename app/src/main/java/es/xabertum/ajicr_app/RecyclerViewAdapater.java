@@ -14,6 +14,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+
 import java.util.List;
 
 public class RecyclerViewAdapater extends RecyclerView.Adapter<RecyclerViewAdapater.JornadaViewHolder>  {
@@ -39,7 +41,7 @@ public class RecyclerViewAdapater extends RecyclerView.Adapter<RecyclerViewAdapa
     }
 
     @Override
-    public void onBindViewHolder(@NonNull final JornadaViewHolder jornadaViewHolder, int i) {
+    public void onBindViewHolder(@NonNull JornadaViewHolder jornadaViewHolder, int i) {
 
         final Jornada jornada = jornadaList.get(i);
         jornadaViewHolder.cardTitle.setText(jornada.getCard_title());

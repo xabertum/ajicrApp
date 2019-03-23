@@ -38,10 +38,9 @@
                 app:layout_constraintVertical_chainStyle="spread_inside" />
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/imageViewPortada_presentacion"
                 android:layout_width="match_parent"
-                android:layout_height="232dp"
-                app:srcCompat="@drawable/foto_ejicr_2017_cropped" />
+                android:layout_height="232dp" />
 
             <TextView
                 android:id="@+id/content_home"
