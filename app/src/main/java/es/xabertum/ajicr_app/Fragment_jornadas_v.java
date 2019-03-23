@@ -8,7 +8,9 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
+import com.bumptech.glide.Glide;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapView;
@@ -23,13 +25,19 @@ public class Fragment_jornadas_v extends Fragment implements OnMapReadyCallback 
     GoogleMap mGoogleMap;
     MapView mapView;
     View jornadasV;
+    ImageView imageViewPortada_j5;
+    ImageView cartel_j5;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState ) {
-
         jornadasV = inflater.inflate(R.layout.fragment_jornadas_v, null);
         jornadasV.setSaveFromParentEnabled(false);
+        imageViewPortada_j5 = jornadasV.findViewById(R.id.imageViewPortada_j5);
+        cartel_j5 = jornadasV.findViewById(R.id.cartelJornadasV);
+
+        Glide.with(this).load(R.drawable.portada_j5).into(imageViewPortada_j5);
+        Glide.with(this).load(R.drawable.cartel_jornadas_5).into(cartel_j5);
 
         return jornadasV;
     }

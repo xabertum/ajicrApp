@@ -35,12 +35,11 @@
                 android:textStyle="normal|bold" />
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/ImageViewPortada_j2"
                 android:layout_width="wrap_content"
                 android:layout_height="208dp"
                 android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                app:srcCompat="@drawable/portada_j2" />
+                android:layout_marginBottom="5dp" />
 
             <RelativeLayout
                 android:layout_width="wrap_content"
@@ -213,8 +212,7 @@
                 android:id="@+id/cartel_jornadas_2"
                 android:layout_width="match_parent"
                 android:layout_height="521dp"
-                android:layout_margin="16dp"
-                app:srcCompat="@drawable/cartel_jornadas_2" />
+                android:layout_margin="16dp" />
 
 
         </LinearLayout>

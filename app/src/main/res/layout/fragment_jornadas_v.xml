@@ -48,10 +48,9 @@
                 android:textSize="14sp" />
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/imageViewPortada_j5"
                 android:layout_width="wrap_content"
-                android:layout_height="208dp"
-                app:srcCompat="@drawable/politica_2_foto" />
+                android:layout_height="208dp" />
 
             <RelativeLayout
                 android:layout_width="wrap_content"
@@ -172,8 +171,7 @@
                 android:id="@+id/cartelJornadasV"
                 android:layout_width="match_parent"
                 android:layout_height="521dp"
-                android:layout_margin="16dp"
-                app:srcCompat="@drawable/politica_2_cartel" />
+                android:layout_margin="16dp" />
 
             <TextView
                 android:id="@+id/textView3"

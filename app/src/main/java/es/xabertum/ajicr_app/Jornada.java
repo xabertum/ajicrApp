@@ -15,6 +15,7 @@ public class Jornada {
     }
 
     public String getCard_title() {
+        
         return card_title;
     }
 
