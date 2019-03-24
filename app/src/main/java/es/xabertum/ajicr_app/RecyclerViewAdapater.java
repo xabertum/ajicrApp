@@ -13,9 +13,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-import com.bumptech.glide.Glide;
-
 import java.util.List;
 
 public class RecyclerViewAdapater extends RecyclerView.Adapter<RecyclerViewAdapater.JornadaViewHolder>  {
@@ -34,7 +31,7 @@ public class RecyclerViewAdapater extends RecyclerView.Adapter<RecyclerViewAdapa
     public JornadaViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
 
         LayoutInflater inflater = LayoutInflater.from(mCtx);
-        View view = inflater.inflate(R.layout.card_jornadas, null);
+        View view = inflater.inflate(R.layout.card_jornadas, viewGroup, false);
         JornadaViewHolder jornadaViewHolder = new JornadaViewHolder(view);
 
         return jornadaViewHolder;
@@ -47,8 +44,8 @@ public class RecyclerViewAdapater extends RecyclerView.Adapter<RecyclerViewAdapa
         jornadaViewHolder.cardTitle.setText(jornada.getCard_title());
         jornadaViewHolder.cardSubTitle.setText(jornada.getCard_subTitle());
         jornadaViewHolder.imageView.setImageDrawable(mCtx.getResources().getDrawable(jornada.getCard_image()));
-
         jornadaViewHolder.explorar.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View v) {
 

@@ -39,7 +39,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="208dp"
                 android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp" />
+                android:layout_marginBottom="5dp"
+                android:contentDescription="Jorndadas1Portadaa"/>
 
             <RelativeLayout
                 android:layout_width="wrap_content"
@@ -52,7 +53,8 @@
                     android:layout_width="18dp"
                     android:layout_height="18dp"
                     android:layout_marginStart="16dp"
-                    app:srcCompat="@drawable/ic_event_black_24dp" />
+                    app:srcCompat="@drawable/ic_event_black_24dp"
+                    android:contentDescription="Calendario"/>
 
                 <TextView
                     android:id="@+id/textView5"
@@ -60,7 +62,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="40dp"
                     android:paddingStart="2dp"
-                    android:text="@string/fecha_jornadas_2"
+                    android:text="@string/fecha_jornadas_1"
                     android:textSize="12sp" />
 
             </RelativeLayout>
@@ -91,7 +93,8 @@
                 android:id="@+id/cartel_jornadas"
                 android:layout_width="match_parent"
                 android:layout_height="521dp"
-                android:layout_margin="16dp" />
+                android:layout_margin="16dp"
+                android:contentDescription="cartelJornadas"/>
 
 
         </LinearLayout>
