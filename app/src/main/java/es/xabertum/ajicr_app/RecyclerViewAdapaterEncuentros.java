@@ -54,7 +54,7 @@ public class RecyclerViewAdapaterEncuentros extends RecyclerView.Adapter<Recycle
 
                 switch (encuentro.getId()) {
                     case 1: {
-                        Fragment encuentros_1 = new Frgament_encuentro_1();
+                        Fragment encuentros_1 = new ViewPagerEncuentros();
                         activity.getSupportFragmentManager().beginTransaction()
                                 .replace(R.id.fragment_container, encuentros_1)
                                 .addToBackStack(null).commit();

@@ -18,7 +18,7 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Frgament_encuentro_1 extends Fragment {
+public class ViewPagerEncuentros extends Fragment {
     
     private ViewPager mViewPager;
     private TabLayout mTabs;
@@ -51,9 +51,9 @@ public class Frgament_encuentro_1 extends Fragment {
     private void setupViewPager(ViewPager mViewPager) {
 
         Adapter adapter = new Adapter(getChildFragmentManager());
-        adapter.addFragment(new Fragment_jornadas_1(), "Jornadas 1");
-        adapter.addFragment(new Fragment_jornadas_2(), "Jornadas 2");
-        adapter.addFragment(new Fragment_jornadas_3(), "Jornadas 3");
+        adapter.addFragment(new Fragment_encuentros_1A(), "Principal");
+        adapter.addFragment(new Fragment_jornadas_2(), "Programa");
+        adapter.addFragment(new Fragment_jornadas_3(), "Galeria");
         mViewPager.setAdapter(adapter);
 
     }

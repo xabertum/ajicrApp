@@ -99,5 +99,14 @@
     <string name="content_1_jornadas_1">Religio.Net nace como proyecto emergente de la voluntad de los miembros de la <b>Asociación de Jóvenes Investigadores en Ciencias de las Religiones (AJICR)</b> para crear, más allá de las disciplinas que tienen que ver con su campo de estudio, un proyecto común con estudiantes e investigadores de otros ámbitos. Concretamente, se pretende establecer un diálogo académico y profesional entre los expertos en Ciencias de las Religiones y la comunidad científica de las Tecnologías de la Información y la Comunicación (TIC). Avalados por la <b>Sociedad Española de Ciencias de las Religiones (SECR)</b> y el <b>Instituto Universitario de Ciencias de las Religiones (IUCCRR)</b>b, nuestro propósito es crear y definir unas jornadas interdisciplinares, donde tengan cabida diversas propuestas, desde el diálogo interreligioso en la red hasta la sensibilidad con la que tratar el conflicto religioso a través de Internet. Estas jornadas se celebrarán los días 19 y 20 de Enero de 2017.</string>
     <string name="programa_jornadas1_link"><a href="https://ajicr.files.wordpress.com/2018/10/programa-iv-jornadas-ajicr.pdf">Programa I Jornadas</a></string>
 
+
+    <!-- Encuentroa I TAB 1 -->
+    <string name="title_encuentro_1">I Encuentro de Jóvenes Investigadores en Ciencias de las Religiones 2017 (I EJICR)</string>
+    <string name="fecha_encuentro_1">Fecha realización - 26, 27 y 28 de Abril de 2017</string>
+    <string name="content_1_encuentro_1">En nombre del comité organizador del I Encuentro de Jóvenes Investigadores en Ciencias de las Religiones, os queremos transmitir nuestros más sinceros agradecimientos: a los ponentes, así como a los/las moderadores/as, por haber contado con vuestra excelente participación y compromiso, a la Universidad Complutense de Madrid, la Facultad de Geografía e Historia, al Instituto Universitario de Ciencias de las Religiones, Casa Árabe y Casa do Brasil, por confiar y colaborar con AJICR, a la pastelería Galicia por habernos endulzado las tres jornadas del Encuentro con el abastecimiento de los deliciosos polvorones ‘El Toro’, y en general, al público asistente que se ha interesado y ha disfrutado de este evento. Ha sido un placer haber contado con vuestra presencia, gracias a la cual estos días han sido un éxito.</string>
+
+    <!-- Encuentroa I TAB 2 -->
+
+
 </resources>
 
