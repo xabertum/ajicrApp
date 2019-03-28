@@ -1,19 +1,19 @@
 package es.xabertum.ajicr_app;
 
-import android.database.DataSetObserver;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.design.widget.TabLayout;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.view.ViewPager;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import com.google.android.material.tabs.TabLayout;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.fragment.app.FragmentStatePagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Adapter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,7 +35,7 @@ public class Frgament_encuentro_1 extends Fragment {
 
         View view = inflater.inflate(R.layout.fragment_encuentro_1_tabbed, container, false);
 
-        // Setting ViewPager for ecach Tab
+        // Setting ViewPager for each Tab
         mViewPager = view.findViewById(R.id.viewpager);
         setupViewPager(mViewPager);
 
@@ -52,15 +52,27 @@ public class Frgament_encuentro_1 extends Fragment {
 
         Adapter adapter = new Adapter(getChildFragmentManager());
         adapter.addFragment(new Fragment_jornadas_1(), "Jornadas 1");
-        adapter.addFragment(new Fragment_jornadas_1(), "Jornadas 2");
-        adapter.addFragment(new Fragment_jornadas_1(), "Jornadas 3");
+        adapter.addFragment(new Fragment_jornadas_2(), "Jornadas 2");
+        adapter.addFragment(new Fragment_jornadas_3(), "Jornadas 3");
         mViewPager.setAdapter(adapter);
 
     }
 
-    static class Adapter extends FragmentPagerAdapter {
+    @Override
+    public void onResume() {
+        super.onResume();
+        ((AppCompatActivity)getActivity()).getSupportActionBar().hide();
+    }
+    @Override
+    public void onStop() {
+        super.onStop();
+        ((AppCompatActivity)getActivity()).getSupportActionBar().show();
+    }
+
+    static class Adapter extends FragmentStatePagerAdapter {
         private final List<Fragment> mFragmentList = new ArrayList<>();
         private final List<String> mFragmentTitleList = new ArrayList<>();
+        private int mCurrentPosition = -1;
 
         public Adapter(FragmentManager manager) {
             super(manager);
@@ -85,5 +97,8 @@ public class Frgament_encuentro_1 extends Fragment {
         public CharSequence getPageTitle(int position) {
             return mFragmentTitleList.get(position);
         }
+
+
+
     }
 }
