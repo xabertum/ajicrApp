@@ -1,4 +1,4 @@
-package es.xabertum.ajicr_app;
+package es.xabertum.ajicr_app.Encuentros;
 
 import android.os.Bundle;
 import androidx.annotation.NonNull;
@@ -8,9 +8,12 @@ import com.google.android.material.tabs.TabLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 import androidx.viewpager.widget.ViewPager;
+import es.xabertum.ajicr_app.Jornadas.Fragment_jornadas_2;
+import es.xabertum.ajicr_app.Jornadas.Fragment_jornadas_3;
+import es.xabertum.ajicr_app.R;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -53,7 +56,7 @@ public class ViewPagerEncuentros extends Fragment {
         Adapter adapter = new Adapter(getChildFragmentManager());
         adapter.addFragment(new Fragment_encuentros_1A(), "Principal");
         adapter.addFragment(new Fragment_jornadas_2(), "Programa");
-        adapter.addFragment(new Fragment_jornadas_3(), "Galeria");
+        adapter.addFragment(new fragment_encuentros_gallery(), "Galeria");
         mViewPager.setAdapter(adapter);
 
     }

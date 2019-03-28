@@ -1,4 +1,4 @@
-package es.xabertum.ajicr_app;
+package es.xabertum.ajicr_app.Jornadas;
 
 import android.app.Activity;
 import android.content.Context;
@@ -7,6 +7,8 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
+import es.xabertum.ajicr_app.R;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;

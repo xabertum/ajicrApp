@@ -1,14 +1,15 @@
 package es.xabertum.ajicr_app;
 
-import android.os.Build;
 import android.os.Bundle;
 import androidx.annotation.NonNull;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.fragment.app.Fragment;
 import androidx.appcompat.app.AppCompatActivity;
+import es.xabertum.ajicr_app.Encuentros.FragmentCardViewEncuentro;
+import es.xabertum.ajicr_app.Jornadas.FragmentCardViewJornada;
+
 import android.view.MenuItem;
-import android.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
 
@@ -19,7 +20,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         setContentView(R.layout.activity_main);
 
         //loading the default fragment
-        loadFragment(new Fragment_inicio());
+        loadFragment(new Fragment_presentacion());
 
         BottomNavigationView navigation = findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(this);
@@ -31,7 +32,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
 
         switch (item.getItemId()) {
             case R.id.navigation_home:
-                fragment = new Fragment_inicio();
+                fragment = new Fragment_presentacion();
                 break;
 
             case R.id.navigation_jornadas:

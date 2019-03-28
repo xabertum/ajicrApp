@@ -11,7 +11,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import com.bumptech.glide.Glide;
 
-public class Fragment_inicio extends Fragment {
+public class Fragment_presentacion extends Fragment {
 
     ImageView imageViewPortada_Presentacion;
 

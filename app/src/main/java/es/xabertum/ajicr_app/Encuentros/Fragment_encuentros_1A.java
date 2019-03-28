@@ -1,4 +1,4 @@
-package es.xabertum.ajicr_app;
+package es.xabertum.ajicr_app.Encuentros;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,6 +11,7 @@ import com.bumptech.glide.Glide;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import es.xabertum.ajicr_app.R;
 
 public class Fragment_encuentros_1A extends Fragment {
 

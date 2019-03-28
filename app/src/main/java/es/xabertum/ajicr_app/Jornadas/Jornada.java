@@ -1,12 +1,13 @@
-package es.xabertum.ajicr_app;
+package es.xabertum.ajicr_app.Jornadas;
 
-public class Encuentro {
+public class Jornada {
+
     private String card_title;
     private String card_subTitle;
     private int card_image;
     private int id;
 
-    public Encuentro(String card_title, String card_subTitle, int card_image, int id) {
+    public Jornada(String card_title, String card_subTitle, int card_image, int id) {
         this.card_title = card_title;
         this.card_subTitle = card_subTitle;
         this.card_image = card_image;
@@ -14,7 +15,7 @@ public class Encuentro {
     }
 
     public String getCard_title() {
-
+        
         return card_title;
     }
 
