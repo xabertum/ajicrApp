@@ -113,7 +113,7 @@
     <!-- Encuentroa I TAB 3 -->
     <string name="galeria_title">Fotos I EJICR</string>
 
-    <!-- Encuentroa I TAB 1 -->
+    <!-- Encuentroa II TAB 1 -->
     <string name="title_encuentro_2">II Encuentro de Jóvenes Investigadores en Ciencias de las Religiones 2019 (II EJICR)</string>
     <string name="fecha_encuentro_2">Fecha realización - 3, 4 y 5 de Abril de 2019</string>
     <string name="content_2EJICR">El éxito y la buena acogida del I Encuentro de Jóvenes Investigadores en Ciencias de las Religiones, de carácter internacional, puso de manifiesto que la sociedad española en general, y el mundo universitario en particular, reclaman foros de debate e intercambio de ideas acerca de realidades tan complejas y poliédricas como son las religiones. Y es que una disciplina tan joven en España, la Historia o Ciencias de las Religiones, está logrando consolidarse poco a poco en la universidad pública a través de programas de formación como el Máster en Ciencias de las Religiones de la UCM o el recientemente inaugurado Máster en Ciencias de las Religiones: Historia y sociedad de la UPO. En consecuencia, AJICR busca dar respuesta a esta necesidad celebrando, tras dos años, el II EJICR, que tendrá lugar los días <b>3 y 4 de abril de 2019 en el Salón de Actos de la Facultad de Filología (Edificio D) de la Universidad Complutense de Madrid </b>, situado en la Calle Profesor Aranguren, s/n (ver espacios), y el día <b>5 de abril en el Centro Sefarad-Israel</b>, en C/ Mayor, 69 (ver espacios). También se realizarán diferentes actividades culturales durante el Encuentro.</string>
@@ -142,6 +142,12 @@
     <string name="comiteCientifico15_2EJCIR"><li><b>Dra. Vanessa del Prete Mainer.</b> Universidad Complutense de Madrid.</li></string>
     <string name="comiteCientifico16_2EJCIR"><li><b>Profa. Dra. Ana Ruiz Osuna.</b> Universidad de Córdoba.</li></string>
 
+    <!-- Encuentroa II TAB Visita -->
+
+    <string name="titleVisita">Actividades</string>
+    <string name="contentVisita">Durante el II Encuentro de Jóvenes Investigadores en Ciencias de las Religiones (EJICR) se realizarán diferentes actividades culturales. Una de ellas será una visita al Madrid Islámico que tendrá lugar el día 5 de abril para concluir el evento. El punto de encuentro será la <b>Plaza de los Carros (frente al Museo de San Isidro en La Latina) a las 17:00.</b></string>
+    <string name="visitaLink"><a href="https://ajicr.files.wordpress.com/2019/03/madrid-islamico-ajicr.pdf">Itinerario de la visita “Madrid: Fundación Emiral”</a></string>
+    <string name="localVisita">Localización Punto de encuentro:</string>
 
 
 </resources>
