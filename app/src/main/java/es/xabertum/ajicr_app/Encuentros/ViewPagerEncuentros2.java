@@ -53,7 +53,7 @@ public class ViewPagerEncuentros2 extends Fragment {
 
         Adapter adapter = new Adapter(getChildFragmentManager());
         adapter.addFragment(new Fragment_encuentros_2A(), "Principal");
-        adapter.addFragment(new Fragment_encuentros_2A(), "Espacios");
+        adapter.addFragment(new Fragment_encuentro_2_localizacion(), "Espacios");
         adapter.addFragment(new Fragment_encuentros_2_visita(), "Visitas");
         adapter.addFragment(new Fragment_encuentros_2A(), "Alojamiento");
 

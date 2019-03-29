@@ -147,8 +147,16 @@
     <string name="titleVisita">Actividades</string>
     <string name="contentVisita">Durante el II Encuentro de Jóvenes Investigadores en Ciencias de las Religiones (EJICR) se realizarán diferentes actividades culturales. Una de ellas será una visita al Madrid Islámico que tendrá lugar el día 5 de abril para concluir el evento. El punto de encuentro será la <b>Plaza de los Carros (frente al Museo de San Isidro en La Latina) a las 17:00.</b></string>
     <string name="visitaLink"><a href="https://ajicr.files.wordpress.com/2019/03/madrid-islamico-ajicr.pdf">Itinerario de la visita “Madrid: Fundación Emiral”</a></string>
-    <string name="localVisita">Localización Punto de encuentro:</string>
+    <string name="localVisita">Localización del punto de encuentro:</string>
 
+    <!-- Encuentroa II TAB Localizacion -->
+
+    <string name="titleLocalizacion">Localizaciones</string>
+    <string name="contentLocalizaciones">Tanto el Encuentro como las actividades programadas se realizarán en dos sedes diferentes, la <b>Facultad de Filología, edificios A y D</b> y <b>Centro Sefarad-Israel</b>. Además el jueves se ha programado una cena en el <b>Penalti Lounge Bar</b>.</string>
+    <string name="localizacion_1"><li>Sesiones 1 y 2. Salón de Actos, Edificio D, Facultad de Filología, UCM.</li></string>
+    <string name="localizacion_2"><li>Almuerzo. Edificio A, Cafetería profesores, Facultad de Filología, UCM.</li></string>
+    <string name="localizacion_3"><li>Sesión 3. Centro Sefarad-Israel.</li></string>
+    <string name="localizacion_4"><li>Cena Jueves, Penalti Lounge Bar (Moncloa).</li></string>
 
 </resources>
 
