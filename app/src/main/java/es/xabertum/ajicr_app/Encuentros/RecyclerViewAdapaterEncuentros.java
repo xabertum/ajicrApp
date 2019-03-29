@@ -64,9 +64,9 @@ public class RecyclerViewAdapaterEncuentros extends RecyclerView.Adapter<Recycle
                         break;
                     }
                     case 2: {
-                        Fragment jornadas_4 = new Fragment_jornadas_4();
+                        Fragment encuentros_2 = new ViewPagerEncuentros2();
                         activity.getSupportFragmentManager().beginTransaction()
-                                .replace(R.id.fragment_container, jornadas_4)
+                                .replace(R.id.fragment_container, encuentros_2)
                                 .addToBackStack(null).commit();
                         break;
                     }
