@@ -27,7 +27,7 @@
                 android:paddingStart="16dp"
                 android:paddingTop="8dp"
                 android:paddingEnd="16dp"
-                android:text="@string/title_encuentro_1"
+                android:text="@string/title_encuentro_2"
                 android:textAlignment="textStart"
                 android:textAllCaps="false"
                 android:textColor="@color/colorPrimary"
@@ -60,7 +60,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="40dp"
                     android:paddingStart="2dp"
-                    android:text="@string/fecha_encuentro_1"
+                    android:text="@string/fecha_encuentro_2"
                     android:textSize="12sp" />
 
             </RelativeLayout>
@@ -73,7 +73,29 @@
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
                 android:paddingBottom="16dp"
-                android:text="@string/content_1_encuentro_1"
+                android:text="@string/content_2EJICR"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/content2_2EJICR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="1sp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="16dp"
+                android:text="@string/content2_2EJICR"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/content3_encuentro_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="1sp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="16dp"
+                android:text="@string/content3_2ECJICE"
                 android:textColor="@color/colorPrimary" />
 
             <TextView
@@ -85,13 +107,223 @@
                 android:focusable="true"
                 android:lineSpacingExtra="1sp"
                 android:linksClickable="true"
-                android:text="@string/programa_link"
+                android:text="@string/programa_2EJICR_Link"
                 android:textAlignment="viewStart"
                 android:textColor="@color/colorPrimary"
                 android:textColorLink="@color/colorLink"
                 android:typeface="normal"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/comunicacionesLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:lineSpacingExtra="1sp"
+                android:linksClickable="true"
+                android:paddingTop="8dp"
+                android:text="@string/comunicacion_2EJICR_Link"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorPrimary"
+                android:textColorLink="@color/colorLink"
+                android:typeface="normal"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp" />
+
+
+            <TextView
+                android:id="@+id/textComite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:paddingLeft="16dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="4dp"
+                android:text="@string/comiteCientifico_2EJICR"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/textComite2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="1sp"
+                android:paddingStart="37dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="16dp"
+                android:text="@string/comiteCientifico1_2EJCIR"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/textComite3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="1sp"
+                android:paddingStart="37dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="16dp"
+                android:text="@string/comiteCientifico2_2EJCIR"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/textComite4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="1sp"
+                android:paddingStart="37dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="16dp"
+                android:text="@string/comiteCientifico3_2EJCIR"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/textComite5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="1sp"
+                android:paddingStart="37dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="16dp"
+                android:text="@string/comiteCientifico4_2EJCIR"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/textComite6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="1sp"
+                android:paddingStart="37dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="16dp"
+                android:text="@string/comiteCientifico5_2EJCIR"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/textComite7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="1sp"
+                android:paddingStart="37dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="16dp"
+                android:text="@string/comiteCientifico6_2EJCIR"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/textComite8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="1sp"
+                android:paddingStart="37dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="16dp"
+                android:text="@string/comiteCientifico7_2EJCIR"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/textComite9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="1sp"
+                android:paddingStart="37dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="16dp"
+                android:text="@string/comiteCientifico8_2EJCIR"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/textComite10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="1sp"
+                android:paddingStart="37dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="16dp"
+                android:text="@string/comiteCientifico9_2EJCIR"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/textComite11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="1sp"
+                android:paddingStart="37dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="16dp"
+                android:text="@string/comiteCientifico10_2EJCIR"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/textComite12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="1sp"
+                android:paddingStart="37dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="16dp"
+                android:text="@string/comiteCientifico11_2EJCIR"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/textComite13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="1sp"
+                android:paddingStart="37dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="16dp"
+                android:text="@string/comiteCientifico12_2EJCIR"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/textComite14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="1sp"
+                android:paddingStart="37dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="16dp"
+                android:text="@string/comiteCientifico13_2EJCIR"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/textComite15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="1sp"
+                android:paddingStart="37dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="16dp"
+                android:text="@string/comiteCientifico14_2EJCIR"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/textComite16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="1sp"
+                android:paddingStart="37dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="16dp"
+                android:text="@string/comiteCientifico15_2EJCIR"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/textComite17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="1sp"
+                android:paddingStart="37dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="16dp"
+                android:text="@string/comiteCientifico16_2EJCIR"
+                android:textColor="@color/colorPrimary" />
+
+
+
+
 
             <TextView
                 android:id="@+id/textView4"
@@ -104,11 +336,13 @@
                 android:text="@string/cartelJornadasV"
                 android:textColor="@color/colorPrimary" />
 
+
             <ImageView
-                android:id="@+id/cartel_encuentro_1"
+                android:id="@+id/cartel_encuentro_2"
                 android:layout_width="match_parent"
                 android:layout_height="521dp"
                 android:layout_margin="16dp" />
+
 
 
         </LinearLayout>

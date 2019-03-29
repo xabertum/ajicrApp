@@ -113,6 +113,36 @@
     <!-- Encuentroa I TAB 3 -->
     <string name="galeria_title">Fotos I EJICR</string>
 
+    <!-- Encuentroa I TAB 1 -->
+    <string name="title_encuentro_2">II Encuentro de Jóvenes Investigadores en Ciencias de las Religiones 2019 (II EJICR)</string>
+    <string name="fecha_encuentro_2">Fecha realización - 3, 4 y 5 de Abril de 2019</string>
+    <string name="content_2EJICR">El éxito y la buena acogida del I Encuentro de Jóvenes Investigadores en Ciencias de las Religiones, de carácter internacional, puso de manifiesto que la sociedad española en general, y el mundo universitario en particular, reclaman foros de debate e intercambio de ideas acerca de realidades tan complejas y poliédricas como son las religiones. Y es que una disciplina tan joven en España, la Historia o Ciencias de las Religiones, está logrando consolidarse poco a poco en la universidad pública a través de programas de formación como el Máster en Ciencias de las Religiones de la UCM o el recientemente inaugurado Máster en Ciencias de las Religiones: Historia y sociedad de la UPO. En consecuencia, AJICR busca dar respuesta a esta necesidad celebrando, tras dos años, el II EJICR, que tendrá lugar los días <b>3 y 4 de abril de 2019 en el Salón de Actos de la Facultad de Filología (Edificio D) de la Universidad Complutense de Madrid </b>, situado en la Calle Profesor Aranguren, s/n (ver espacios), y el día <b>5 de abril en el Centro Sefarad-Israel</b>, en C/ Mayor, 69 (ver espacios). También se realizarán diferentes actividades culturales durante el Encuentro.</string>
+    <string name="content2_2EJICR">La razón de ser de este evento es la creación de sinergias entre el tejido investigador de las Ciencias de las Religiones, tanto a escala nacional como internacional, para difundir y debatir los nuevos trabajos que se están realizando en el estudio de las distintas manifestaciones religiosas, ya sea desde un punto de vista descriptivo, analítico o desde la reflexión teórica y metodológica. Desde AJICR, se invita a asistir a toda persona interesada en el estudio de las religiones, y concretamente, a aquellas personas tituladas que estén cursando un Máster, un programa de Doctorado o que hayan obtenido recientemente sus título de Doctor, con lo que se espera dinamizar y enriquecer los programas de formación de los futuros profesionales en la investigación del fenómeno religioso.</string>
+    <string name="content3_2ECJICE">La asistencia al evento será libre y gratuita. Aquellos que deseen recibir un certificado de asistencia, que tendrá un coste de 10€, deberán rellenar el siguiente formulario:</string>
+
+    <string name="inscripcion_2EJICR_Link"><a href="https://docs.google.com/forms/d/1jBTUae4TXq1uZY9ymTOC-gc803W7QKVl2C-I7DJGNiM/edit">Formulario de asistencia y de solicitud de certificado del II EJICR</a></string>
+    <string name="programa_2EJICR_Link"><a href="https://ajicr.files.wordpress.com/2019/03/programa-ii-ejicr-2019.pdf">Programa II EJICR</a></string>
+    <string name="comunicacion_2EJICR_Link"><a href="https://ajicr.files.wordpress.com/2019/03/resumenes-comunicaciones-bueno.pdf">Resumen de comunicaciones</a></string>
+    <string name="comiteCientifico_2EJICR">Comité científico</string>
+
+    <string name="comiteCientifico1_2EJCIR"><li><b>Prof. Dr. Eduardo Ferrer Albelda.</b> Universidad de Sevilla.</li></string>
+    <string name="comiteCientifico2_2EJCIR"><li><b>Prof. Dr. Emilio González Ferrín.</b> Universidad de Sevilla.</li></string>
+    <string name="comiteCientifico3_2EJCIR"><li><b>Profa. Dra. Katharina Lorenz.</b> Justus-Liebig-Universität Giessen, Alemania.</li></string>
+    <string name="comiteCientifico4_2EJCIR"><li><b>Prof. Dr. Pedro Marfil Ruiz.</b> Universidad de Córdoba.</li></string>
+    <string name="comiteCientifico5_2EJCIR"><li><b>Prof. Dr. José Antonio Molina Gómez.</b> Universidad de Murcia.</li></string>
+    <string name="comiteCientifico6_2EJCIR"><li><b>Prof. Dr. Jesús F. Pascual Molina.</b> Universidad de Valladolid</li></string>
+    <string name="comiteCientifico7_2EJCIR"><li><b>Profa. Dra. Georgia Petridou.</b> University of Liverpool</li></string>
+    <string name="comiteCientifico8_2EJCIR"><li><b>Dra. Anna-Katharina Rieger.</b> Universität Graz.</li></string>
+    <string name="comiteCientifico9_2EJCIR"><li><b>Prof. Dr. Sergio Rodríguez Tapia.</b> Universidad de Córdoba.</li></string>
+    <string name="comiteCientifico10_2EJCIR"><li><b>Prof. Dr. Wolfgang Spickermann.</b> Universität Graz.</li></string>
+    <string name="comiteCientifico11_2EJCIR"><li><b>Prof. Dr. Juan Carlos Ruiz Souza.</b> Universidad Complutense de Madrid.</li></string>
+    <string name="comiteCientifico12_2EJCIR"><li><b>Prof. Dr. Jörg Rüpke.</b> Universität Erfurt.</li></string>
+    <string name="comiteCientifico13_2EJCIR"><li><b>Profa. Dra. Monica Salvadori.</b> Università degli Studi di Padova, Italia.</li></string>
+    <string name="comiteCientifico14_2EJCIR"><li><b>Prof. Dr. Alfonso Vives Cuesta.</b> Universidad de Valladolid e Instituto Bíblico y Oriental.</li></string>
+    <string name="comiteCientifico15_2EJCIR"><li><b>Dra. Vanessa del Prete Mainer.</b> Universidad Complutense de Madrid.</li></string>
+    <string name="comiteCientifico16_2EJCIR"><li><b>Profa. Dra. Ana Ruiz Osuna.</b> Universidad de Córdoba.</li></string>
+
+
 
 </resources>
 
