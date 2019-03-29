@@ -77,6 +77,23 @@
                 android:textColor="@color/colorPrimary" />
 
             <TextView
+                android:id="@+id/programaLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:lineSpacingExtra="1sp"
+                android:linksClickable="true"
+                android:text="@string/programa_link"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorPrimary"
+                android:textColorLink="@color/colorLink"
+                android:typeface="normal"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

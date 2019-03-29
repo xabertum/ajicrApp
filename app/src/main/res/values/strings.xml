@@ -107,8 +107,11 @@
 
     <!-- Encuentroa I TAB 2 -->
 
+    <string name="programa_link"><a href="https://ajicr.files.wordpress.com/2017/03/programa-ejicr-6-docx.pdf">Programa I EJICR</a></string>
+
+
     <!-- Encuentroa I TAB 3 -->
-    <string name="galeria_title">Fotos I EJCIR</string>
+    <string name="galeria_title">Fotos I EJICR</string>
 
 
 </resources>

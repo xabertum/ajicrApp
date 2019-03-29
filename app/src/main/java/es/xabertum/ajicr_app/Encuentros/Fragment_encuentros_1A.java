@@ -1,10 +1,12 @@
 package es.xabertum.ajicr_app.Encuentros;
 
 import android.os.Bundle;
+import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 
@@ -29,6 +31,9 @@ public class Fragment_encuentros_1A extends Fragment {
 
         Glide.with(this).load(R.drawable.cartel_encuentro_1).into(imageViewCartel);
         Glide.with(this).load(R.drawable.portada_e1).into(imageViewPortada);
+
+        TextView programaLink = encuentro_1.findViewById(R.id.programaLink);
+        programaLink.setMovementMethod(LinkMovementMethod.getInstance());
 
         return encuentro_1;
     }

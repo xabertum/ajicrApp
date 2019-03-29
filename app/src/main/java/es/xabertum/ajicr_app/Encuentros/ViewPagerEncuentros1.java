@@ -21,7 +21,7 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ViewPagerEncuentros extends Fragment {
+public class ViewPagerEncuentros1 extends Fragment {
     
     private ViewPager mViewPager;
     private TabLayout mTabs;
@@ -55,7 +55,6 @@ public class ViewPagerEncuentros extends Fragment {
 
         Adapter adapter = new Adapter(getChildFragmentManager());
         adapter.addFragment(new Fragment_encuentros_1A(), "Principal");
-        adapter.addFragment(new Fragment_jornadas_2(), "Programa");
         adapter.addFragment(new fragment_encuentros_gallery(), "Galeria");
         mViewPager.setAdapter(adapter);
 
@@ -75,7 +74,6 @@ public class ViewPagerEncuentros extends Fragment {
     static class Adapter extends FragmentStatePagerAdapter {
         private final List<Fragment> mFragmentList = new ArrayList<>();
         private final List<String> mFragmentTitleList = new ArrayList<>();
-        private int mCurrentPosition = -1;
 
         public Adapter(FragmentManager manager) {
             super(manager);
@@ -100,8 +98,6 @@ public class ViewPagerEncuentros extends Fragment {
         public CharSequence getPageTitle(int position) {
             return mFragmentTitleList.get(position);
         }
-
-
 
     }
 }

@@ -24,7 +24,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
-                android:layout_marginBottom="25dp"
                 android:lineSpacingExtra="1sp"
                 android:text="@string/galeria_title"
                 android:textAlignment="center"
@@ -40,53 +39,93 @@
 
             <ImageView
                 android:id="@+id/encuentroGallery_1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="-45dp"
-                android:layout_marginBottom="-90dp"
-                android:paddingStart="24dp"
-                android:paddingEnd="24dp"
-                app:srcCompat="@drawable/card_e1" />
+                android:layout_width="match_parent"
+                android:layout_height="333dp"
+                android:layout_marginBottom="-24dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:srcCompat="@drawable/encuentro1_1" />
 
             <ImageView
                 android:id="@+id/encuentroGallery_2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="-120dp"
-                android:padding="24dp"
-                app:srcCompat="@drawable/card_e1" />
+                android:layout_height="333dp"
+                android:layout_marginBottom="-24dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:srcCompat="@drawable/encuentro1_2" />
 
             <ImageView
                 android:id="@+id/encuentroGallery_3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="-120dp"
-                android:padding="24dp"
-                app:srcCompat="@drawable/card_e1" />
+                android:layout_height="333dp"
+                android:layout_marginBottom="-24dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:srcCompat="@drawable/encuentro1_3" />
 
             <ImageView
                 android:id="@+id/encuentroGallery_4"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="-120dp"
-                android:padding="24dp"
-                app:srcCompat="@drawable/card_j3" />
+                android:layout_height="333dp"
+                android:layout_marginBottom="-24dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:srcCompat="@drawable/encuentro1_4" />
 
             <ImageView
                 android:id="@+id/encuentroGallery_5"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="-120dp"
-                android:padding="24dp"
-                app:srcCompat="@drawable/card_j3" />
+                android:layout_height="333dp"
+                android:layout_marginBottom="-24dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:srcCompat="@drawable/encuentro1_5" />
 
             <ImageView
                 android:id="@+id/encuentroGallery_6"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="-120dp"
-                android:padding="24dp"
-                app:srcCompat="@drawable/card_j4" />
+                android:layout_height="333dp"
+                android:layout_marginBottom="-24dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:srcCompat="@drawable/encuentro1_6" />
+
+            <ImageView
+                android:id="@+id/encuentroGallery_7"
+                android:layout_width="match_parent"
+                android:layout_height="333dp"
+                android:layout_marginBottom="-24dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:srcCompat="@drawable/encuentro1_7" />
+
+            <ImageView
+                android:id="@+id/encuentroGallery_8"
+                android:layout_width="match_parent"
+                android:layout_height="333dp"
+                android:layout_marginBottom="-24dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:srcCompat="@drawable/encuentro1_8" />
+
+            <ImageView
+                android:id="@+id/encuentroGallery_9"
+                android:layout_width="match_parent"
+                android:layout_height="333dp"
+                android:layout_marginBottom="-24dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:srcCompat="@drawable/encuentro1_9" />
+
+            <ImageView
+                android:id="@+id/encuentroGallery_10"
+                android:layout_width="match_parent"
+                android:layout_height="333dp"
+                android:layout_marginBottom="-24dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:srcCompat="@drawable/encuentro1_10" />
         </LinearLayout>
     </ScrollView>
 

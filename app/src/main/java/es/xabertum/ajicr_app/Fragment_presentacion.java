@@ -19,6 +19,8 @@ public class Fragment_presentacion extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState ) {
 
+        getActivity().setTitle("AJICR");
+
         View inicioView = inflater.inflate(R.layout.fragment_inicio, null);
         imageViewPortada_Presentacion = inicioView.findViewById(R.id.imageViewPortada_presentacion);
 
