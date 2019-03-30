@@ -8,7 +8,7 @@
 
     <!-- Contenido de inicio -->
     <string name="home_presentacion">Presentación</string>
-    <string name="content_home">La Asociación de Jóvenes Investigadores en Ciencias de las Religiones (AJICR) es una asociación con carácter apartidista, aconfesional y laico creada por investigadores noveles que se encuentra inscrita en el <b>Registro Nacional de Asociaciones</b> del Ministerio del Interior con número nacional “611051”. AJICR tiene como fines:</string>
+    <string name="content_home">La <b>Asociación de Jóvenes Investigadores en Ciencias de las Religiones (AJICR)</b> es una asociación con carácter apartidista, aconfesional y laico creada por investigadores noveles que se encuentra inscrita en el <b>Registro Nacional de Asociaciones</b> del Ministerio del Interior con número nacional “611051”. AJICR tiene como fines:</string>
     <string name="content_home1"><li>Crear un espacio de investigación en Ciencias de las Religiones</li>.</string>
     <string name="content_home2"><li>Fomentar la participación de investigadores noveles y la colaboración entre profesores e investigadores en cualquier rama relacionada con el estudio de las religiones.</li></string>
     <string name="content_home3"><li>Promover un espacio común donde se permita intercambiar proyectos y estudios en los distintos ámbitos relacionados con el campo de las religiones.</li></string>
@@ -91,14 +91,14 @@
     <!-- Jornadas I -->
     <string name="title_jornadas_1">I Jornadas Universitarias AJICR: RELIGIO.NET: Cibertecnología y creencias religiosas.</string>
     <string name="fecha_jornadas_1">Fecha realización - 19 y 20 de Enero de 2017</string>
-    <string name="content_1_jornadas_1">Religio.Net nace como proyecto emergente de la voluntad de los miembros de la <b>Asociación de Jóvenes Investigadores en Ciencias de las Religiones (AJICR)</b> para crear, más allá de las disciplinas que tienen que ver con su campo de estudio, un proyecto común con estudiantes e investigadores de otros ámbitos. Concretamente, se pretende establecer un diálogo académico y profesional entre los expertos en Ciencias de las Religiones y la comunidad científica de las Tecnologías de la Información y la Comunicación (TIC). Avalados por la <b>Sociedad Española de Ciencias de las Religiones (SECR)</b> y el <b>Instituto Universitario de Ciencias de las Religiones (IUCCRR)</b>b, nuestro propósito es crear y definir unas jornadas interdisciplinares, donde tengan cabida diversas propuestas, desde el diálogo interreligioso en la red hasta la sensibilidad con la que tratar el conflicto religioso a través de Internet. Estas jornadas se celebrarán los días 19 y 20 de Enero de 2017.</string>
+    <string name="content_1_jornadas_1">Religio.Net nace como proyecto emergente de la voluntad de los miembros de la <b>Asociación de Jóvenes Investigadores en Ciencias de las Religiones (AJICR)</b> para crear, más allá de las disciplinas que tienen que ver con su campo de estudio, un proyecto común con estudiantes e investigadores de otros ámbitos. Concretamente, se pretende establecer un diálogo académico y profesional entre los expertos en Ciencias de las Religiones y la comunidad científica de las Tecnologías de la Información y la Comunicación (TIC). Avalados por la <b>Sociedad Española de Ciencias de las Religiones (SECR)</b> y el <b>Instituto Universitario de Ciencias de las Religiones (IUCCRR)</b>, nuestro propósito es crear y definir unas jornadas interdisciplinares, donde tengan cabida diversas propuestas, desde el diálogo interreligioso en la red hasta la sensibilidad con la que tratar el conflicto religioso a través de Internet. Estas jornadas se celebrarán los días 19 y 20 de Enero de 2017.</string>
     <string name="programa_jornadas1_link"><a href="https://ajicr.files.wordpress.com/2018/10/programa-iv-jornadas-ajicr.pdf">Programa I Jornadas</a></string>
 
 
     <!-- Encuentroa I TAB 1 -->
     <string name="title_encuentro_1">I Encuentro de Jóvenes Investigadores en Ciencias de las Religiones 2017 (I EJICR)</string>
     <string name="fecha_encuentro_1">Fecha realización - 26, 27 y 28 de Abril de 2017</string>
-    <string name="content_1_encuentro_1">En nombre del comité organizador del I Encuentro de Jóvenes Investigadores en Ciencias de las Religiones, os queremos transmitir nuestros más sinceros agradecimientos: a los ponentes, así como a los/las moderadores/as, por haber contado con vuestra excelente participación y compromiso, a la Universidad Complutense de Madrid, la Facultad de Geografía e Historia, al Instituto Universitario de Ciencias de las Religiones, Casa Árabe y Casa do Brasil, por confiar y colaborar con AJICR, a la pastelería Galicia por habernos endulzado las tres jornadas del Encuentro con el abastecimiento de los deliciosos polvorones ‘El Toro’, y en general, al público asistente que se ha interesado y ha disfrutado de este evento. Ha sido un placer haber contado con vuestra presencia, gracias a la cual estos días han sido un éxito.</string>
+    <string name="content_1_encuentro_1">En nombre del comité organizador del <b>I Encuentro de Jóvenes Investigadores en Ciencias de las Religiones</b>, os queremos transmitir nuestros más sinceros agradecimientos: a los ponentes, así como a los/las moderadores/as, por haber contado con vuestra excelente participación y compromiso, a la Universidad Complutense de Madrid, la Facultad de Geografía e Historia, al Instituto Universitario de Ciencias de las Religiones, Casa Árabe y Casa do Brasil, por confiar y colaborar con AJICR, a la pastelería Galicia por habernos endulzado las tres jornadas del Encuentro con el abastecimiento de los deliciosos polvorones ‘El Toro’, y en general, al público asistente que se ha interesado y ha disfrutado de este evento. Ha sido un placer haber contado con vuestra presencia, gracias a la cual estos días han sido un éxito.</string>
 
     <!-- Encuentroa I TAB 2 -->
 
@@ -139,7 +139,7 @@
 
     <!-- Encuentroa II TAB Visita -->
     <string name="titleVisita">Actividades</string>
-    <string name="contentVisita">Durante el II Encuentro de Jóvenes Investigadores en Ciencias de las Religiones (EJICR) se realizarán diferentes actividades culturales. Una de ellas será una visita al Madrid Islámico que tendrá lugar el día 5 de abril para concluir el evento. El punto de encuentro será la <b>Plaza de los Carros (frente al Museo de San Isidro en La Latina) a las 17:00.</b></string>
+    <string name="contentVisita">Durante el II Encuentro de Jóvenes Investigadores en Ciencias de las Religiones (EJICR) se realizarán diferentes actividades culturales. Una de ellas será una visita al Madrid Islámico que tendrá lugar el día <b>5 de abril</b> para concluir el evento. El punto de encuentro será la <b>Plaza de los Carros (frente al Museo de San Isidro en La Latina) a las 17:00.</b></string>
     <string name="visitaLink"><a href="https://ajicr.files.wordpress.com/2019/03/madrid-islamico-ajicr.pdf">Itinerario de la visita “Madrid: Fundación Emiral”</a></string>
     <string name="localVisita">Localización del punto de encuentro:</string>
 
@@ -153,7 +153,7 @@
 
     <!-- Encuentroa II TAB Alojamiento -->
     <string name="Alojamiento">Alojamiento</string>
-    <string name="contentAlojamiento">Debido al elevado costo y a la lejanía de los habituales lugares de alojamiento cercanos al espacio del Encuentro, AJICR propone a sus asistentes y participantes el Colegio Mayor Universitario Casa do Brasil, situado en la Avda. de la Memoria, 3.</string>
+    <string name="contentAlojamiento">Debido al elevado costo y a la lejanía de los habituales lugares de alojamiento cercanos al espacio del Encuentro, AJICR propone a sus asistentes y participantes el <b>Colegio Mayor Universitario Casa do Brasil</b>, situado en la Avda. de la Memoria, 3.</string>
     <string name="alojamientoTitulo">Localización del Alojamiento:</string>
     <string name="alojamientoPrecio">Los precios de alojamiento en Casa do Brasil son:</string>
     <string name="precio1">Habitación individual (sólo alojamiento) – 50€ / noche</string>

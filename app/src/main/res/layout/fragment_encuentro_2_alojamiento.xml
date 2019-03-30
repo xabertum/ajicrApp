@@ -100,7 +100,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
                 android:paddingLeft="16dp"
                 android:paddingEnd="16dp"
                 android:paddingBottom="4dp"
@@ -114,7 +113,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
                 android:paddingLeft="16dp"
                 android:paddingEnd="16dp"
                 android:paddingBottom="4dp"
@@ -141,7 +139,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
                 android:paddingLeft="16dp"
                 android:paddingEnd="16dp"
                 android:paddingBottom="4dp"
@@ -156,7 +153,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
                 android:layout_marginBottom="24dp"
                 android:paddingLeft="16dp"
                 android:paddingEnd="16dp"
@@ -165,6 +161,69 @@
                 android:textColor="@color/colorPrimary"
                 app:layout_constraintTop_toBottomOf="@+id/visitaLink"
                 tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/transporte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="0dp"
+                android:text="@string/transporte"
+                android:textColor="@color/colorPrimary" />
+
+            <LinearLayout
+                android:id="@+id/LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/transporte_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:paddingTop="8dp"
+                    android:paddingEnd="8dp"
+                    android:paddingBottom="0dp"
+                    android:text="@string/circular"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/linea6"
+                    android:layout_width="21dp"
+                    android:layout_height="21dp"
+                    android:layout_marginTop="7dp"
+                    app:layout_constraintEnd_toStartOf="@+id/transporte_2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/linea_6" />
+
+                <TextView
+                    android:id="@+id/transporte_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:paddingTop="8dp"
+                    android:paddingEnd="8dp"
+                    android:paddingBottom="0dp"
+                    android:text="Ciudad Universitaria"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="38dp"
+                    android:layout_height="24dp"
+                    android:layout_marginTop="7dp"
+                    app:layout_constraintStart_toEndOf="@+id/transporte_2"
+                    app:layout_constraintTop_toTopOf="@+id/transporte_3"
+                    app:srcCompat="@drawable/metro_madrid_logo" />
+
+            </LinearLayout>
 
 
 
