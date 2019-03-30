@@ -42,6 +42,8 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
             case R.id.navigation_encuentros:
                 fragment = new FragmentCardViewEncuentro();
                 break;
+            case R.id.navigation_contacto:
+                fragment = new Fragment_contacto();
         }
 
         return loadFragment(fragment);

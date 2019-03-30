@@ -22,8 +22,8 @@ import es.xabertum.ajicr_app.R;
 public class Fragment_encuentros_2_alojamiento extends Fragment implements OnMapReadyCallback {
 
     View encuentro_2_alojamiento;
-    GoogleMap mGoogleMap, mGoogleMap2, mGoogleMap3, mGoogleMap4;
-    MapView mapView, mapView2, mapView3, mapView4;
+    GoogleMap mGoogleMap;
+    MapView mapView;
 
     @Nullable
     @Override
@@ -59,7 +59,12 @@ public class Fragment_encuentros_2_alojamiento extends Fragment implements OnMap
         CameraPosition facultadFilosofia = CameraPosition.builder().target(new LatLng(40.438864, -3.725773)).zoom(16).bearing(0).tilt(45).build();
         mGoogleMap.moveCamera(CameraUpdateFactory.newCameraPosition(facultadFilosofia));
 
+    }
 
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
 
+        mGoogleMap = null;
     }
 }

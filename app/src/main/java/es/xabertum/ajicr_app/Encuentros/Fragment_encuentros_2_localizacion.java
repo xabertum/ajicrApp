@@ -23,7 +23,7 @@ public class Fragment_encuentros_2_localizacion extends Fragment implements OnMa
 
     View encuentro_2_localizacion;
     GoogleMap mGoogleMap, mGoogleMap2, mGoogleMap3, mGoogleMap4;
-    MapView mapView, mapView2, mapView3, mapView4;
+    MapView mapView;
 
     @Nullable
     @Override
@@ -70,7 +70,15 @@ public class Fragment_encuentros_2_localizacion extends Fragment implements OnMa
         CameraPosition facultadFilosofia = CameraPosition.builder().target(new LatLng(40.448922, -3.732564)).zoom(11).bearing(0).tilt(45).build();
         mGoogleMap.moveCamera(CameraUpdateFactory.newCameraPosition(facultadFilosofia));
 
+    }
 
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
 
+        mGoogleMap = null;
+        mGoogleMap2 = null;
+        mGoogleMap3 = null;
+        mGoogleMap4 = null;
     }
 }

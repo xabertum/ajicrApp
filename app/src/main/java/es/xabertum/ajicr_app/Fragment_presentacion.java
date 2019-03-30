@@ -21,7 +21,7 @@ public class Fragment_presentacion extends Fragment {
 
         getActivity().setTitle("AJICR");
 
-        View inicioView = inflater.inflate(R.layout.fragment_inicio, null);
+        View inicioView = inflater.inflate(R.layout.fragment_presentacion, null);
         imageViewPortada_Presentacion = inicioView.findViewById(R.id.imageViewPortada_presentacion);
 
         Glide.with(this).load(R.drawable.foto_ejicr_2017_cropped).into(imageViewPortada_Presentacion);

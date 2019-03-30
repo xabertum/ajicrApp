@@ -26,8 +26,6 @@ import es.xabertum.ajicr_app.R;
 public class Fragment_encuentros_2_visita extends Fragment implements OnMapReadyCallback {
 
     View encuentro_2;
-    ImageView imageViewCartel;
-    ImageView imageViewPortada;
     MapView mapView;
     GoogleMap mGoogleMap;
 
@@ -66,5 +64,10 @@ public class Fragment_encuentros_2_visita extends Fragment implements OnMapReady
 
     }
 
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
 
+        mGoogleMap = null;
+    }
 }
