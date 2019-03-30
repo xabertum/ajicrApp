@@ -7,10 +7,12 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import es.xabertum.ajicr_app.R;
 
+import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -40,6 +42,9 @@ public class Fragment_jornadas_v extends Fragment implements OnMapReadyCallback 
 
         Glide.with(this).load(R.drawable.portada_j5).into(imageViewPortada_j5);
         Glide.with(this).load(R.drawable.cartel_jornadas_5).into(cartel_j5);
+
+        TextView estatutosLink = jornadasV.findViewById(R.id.link_progama_j5);
+        estatutosLink.setMovementMethod(LinkMovementMethod.getInstance());
 
         return jornadasV;
     }

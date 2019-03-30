@@ -10,8 +10,6 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 import androidx.viewpager.widget.ViewPager;
-import es.xabertum.ajicr_app.Jornadas.Fragment_jornadas_2;
-import es.xabertum.ajicr_app.Jornadas.Fragment_jornadas_3;
 import es.xabertum.ajicr_app.R;
 
 import android.view.LayoutInflater;
@@ -55,7 +53,7 @@ public class ViewPagerEncuentros1 extends Fragment {
 
         Adapter adapter = new Adapter(getChildFragmentManager());
         adapter.addFragment(new Fragment_encuentros_1A(), "Principal");
-        adapter.addFragment(new fragment_encuentros_gallery(), "Galeria");
+        adapter.addFragment(new fragment_encuentros_1_gallery(), "Galeria");
         mViewPager.setAdapter(adapter);
 
     }

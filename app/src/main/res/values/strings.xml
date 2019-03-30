@@ -54,7 +54,7 @@
     <string name="content6_jornadas_v"><li>Conocer la evolución y las características del hecho religioso como medio idóneo para el desarrollo de una ciudadanía activa y participativa.</li></string>
     <string name="content7_jornadas_v"><li>Concienciar sobre la importancia de espacios en las universidades españolas donde se formen alumnos capaces de analizar el hecho religioso explícitamente (Grados en Religiones), de manera aconfesional y en su complejidad</li></string>
     <string name="content8_jornadas_v">La entrada es gratuita y libre hasta completar aforo. En el caso que se necesite o se quiera un certificado de asistencia (10 €) deberá rellenar el siguiente <a href="https://docs.google.com/forms/d/e/1FAIpQLSeLJTk8bvpAHBO9IBNrULllY5pyLWIw0icURCwubF8EV1UlCw/viewform">formulario</a>.</string>
-    <string name="content9_jornadas_v">Puedes descargar el programa completo pinchando <a href="https://ajicr.files.wordpress.com/2019/03/programa-definitivo-jornadas-religion-y-educacion-ajicr-tender-puentes.pdf">aquí</a>.</string>
+    <string name="content9_jornadas_v"><a href="https://ajicr.files.wordpress.com/2019/03/programa-definitivo-jornadas-religion-y-educacion-ajicr-tender-puentes.pdf">Programa V Jornadas</a>.</string>
 
     <!-- Jornadas IV -->
 
@@ -157,6 +157,20 @@
     <string name="localizacion_2"><li>Almuerzo. Edificio A, Cafetería profesores, Facultad de Filología, UCM.</li></string>
     <string name="localizacion_3"><li>Sesión 3. Centro Sefarad-Israel.</li></string>
     <string name="localizacion_4"><li>Cena Jueves, Penalti Lounge Bar (Moncloa).</li></string>
+
+    <!-- Encuentroa II TAB Alojamiento -->
+
+    <string name="Alojamiento">Alojamiento</string>
+    <string name="contentAlojamiento">Debido al elevado costo y a la lejanía de los habituales lugares de alojamiento cercanos al espacio del Encuentro, AJICR propone a sus asistentes y participantes el Colegio Mayor Universitario Casa do Brasil, situado en la Avda. de la Memoria, 3.</string>
+    <string name="alojamientoTitulo">Localización del Alojamiento:</string>
+    <string name="alojamientoPrecio">Los precios de alojamiento en Casa do Brasil son:</string>
+    <string name="precio1">Habitación individual (sólo alojamiento) – 50€ / noche</string>
+    <string name="precio2"><li>Media pensión - 60€ / noche</li></string>
+    <string name="precio3"><li>Pensión completa - 70€ / noche</li></string>
+    <string name="precio4">Habitación doble (sólo alojamiento) – 70€ / noche</string>
+    <string name="precio5"><li>Media pensión - 85€ / noche</li></string>
+    <string name="precio6"><li>Pensión completa - 100€ / noche</li></string>
+
 
 </resources>
 

@@ -158,6 +158,17 @@
                 android:textColor="@color/colorPrimary" />
 
             <TextView
+                android:id="@+id/link_progama_j5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="8dp"
+                android:text="@string/content9_jornadas_v"
+                android:textColor="@color/colorLink"
+                android:textColorLink="@color/colorLink" />
+
+            <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
