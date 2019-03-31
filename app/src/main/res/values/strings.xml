@@ -87,12 +87,13 @@
     <string name="title_activity_jornadas5">ActivityJornadas5</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="programa_jornadas2_link"><a href="https://ajicr.files.wordpress.com/2019/03/programa-religiones-y-politicas.pdf">Programa II Jornadas</a></string>
 
     <!-- Jornadas I -->
     <string name="title_jornadas_1">I Jornadas Universitarias AJICR: RELIGIO.NET: Cibertecnología y creencias religiosas.</string>
     <string name="fecha_jornadas_1">Fecha realización - 19 y 20 de Enero de 2017</string>
     <string name="content_1_jornadas_1">Religio.Net nace como proyecto emergente de la voluntad de los miembros de la <b>Asociación de Jóvenes Investigadores en Ciencias de las Religiones (AJICR)</b> para crear, más allá de las disciplinas que tienen que ver con su campo de estudio, un proyecto común con estudiantes e investigadores de otros ámbitos. Concretamente, se pretende establecer un diálogo académico y profesional entre los expertos en Ciencias de las Religiones y la comunidad científica de las Tecnologías de la Información y la Comunicación (TIC). Avalados por la <b>Sociedad Española de Ciencias de las Religiones (SECR)</b> y el <b>Instituto Universitario de Ciencias de las Religiones (IUCCRR)</b>, nuestro propósito es crear y definir unas jornadas interdisciplinares, donde tengan cabida diversas propuestas, desde el diálogo interreligioso en la red hasta la sensibilidad con la que tratar el conflicto religioso a través de Internet. Estas jornadas se celebrarán los días 19 y 20 de Enero de 2017.</string>
-    <string name="programa_jornadas1_link"><a href="https://ajicr.files.wordpress.com/2018/10/programa-iv-jornadas-ajicr.pdf">Programa I Jornadas</a></string>
+    <string name="programa_jornadas1_link"><a href="https://ajicr.files.wordpress.com/2016/12/programa-religio-net1.pdf">Programa I Jornadas</a></string>
 
 
     <!-- Encuentroa I TAB 1 -->

@@ -11,6 +11,10 @@ import androidx.fragment.app.Fragment;
 import es.xabertum.ajicr_app.Encuentros.FragmentCardViewEncuentro;
 import es.xabertum.ajicr_app.Jornadas.FragmentCardViewJornada;
 
+/**
+ * Created by xabertum 30-03-19
+ */
+
 public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
 
 
