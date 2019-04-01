@@ -32,6 +32,9 @@ public class Fragment_encuentros_2A extends Fragment {
         Glide.with(this).load(R.drawable.cartel_encuentro_2).into(imageViewCartel);
         Glide.with(this).load(R.drawable.portada_e2).into(imageViewPortada);
 
+        TextView formularioLink = encuentro_2.findViewById(R.id.formularioLink);
+        formularioLink.setMovementMethod(LinkMovementMethod.getInstance());
+
         TextView programaLink = encuentro_2.findViewById(R.id.programaLink);
         programaLink.setMovementMethod(LinkMovementMethod.getInstance());
 

@@ -94,9 +94,27 @@
                 android:lineSpacingExtra="1sp"
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
-                android:paddingBottom="16dp"
+                android:paddingBottom="8dp"
                 android:text="@string/content3_2ECJICE"
                 android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/formularioLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:lineSpacingExtra="1sp"
+                android:linksClickable="true"
+                android:text="@string/inscripcion_2EJICR_Link"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorPrimary"
+                android:textColorLink="@color/colorLink"
+                android:typeface="normal"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp" />
+
 
             <TextView
                 android:id="@+id/programaLink"
@@ -107,6 +125,7 @@
                 android:focusable="true"
                 android:lineSpacingExtra="1sp"
                 android:linksClickable="true"
+                android:paddingTop="8dp"
                 android:text="@string/programa_2EJICR_Link"
                 android:textAlignment="viewStart"
                 android:textColor="@color/colorPrimary"
