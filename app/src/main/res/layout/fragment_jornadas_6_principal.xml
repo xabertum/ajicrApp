@@ -27,7 +27,7 @@
                 android:paddingStart="16dp"
                 android:paddingTop="8dp"
                 android:paddingEnd="16dp"
-                android:text="@string/title_encuentro_1"
+                android:text="@string/title_jornadas_6"
                 android:textAlignment="textStart"
                 android:textAllCaps="false"
                 android:textColor="@color/colorPrimary"
@@ -60,7 +60,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="40dp"
                     android:paddingStart="2dp"
-                    android:text="@string/fecha_encuentro_1"
+                    android:text="@string/fecha_jornadas_6"
                     android:textSize="12sp" />
 
             </RelativeLayout>
@@ -73,11 +73,83 @@
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
                 android:paddingBottom="16dp"
-                android:text="@string/content_1_encuentro_1"
+                android:text="@string/content1_jornadas_6"
                 android:textColor="@color/colorPrimary" />
 
             <TextView
-                android:id="@+id/programaLink"
+                android:id="@+id/content2_jornadas_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="1sp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="16dp"
+                android:text="@string/content2_jornadas_6"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/content3_jornadas_v2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingStart="0dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="8dp"
+                android:text="@string/content3_jornadas_v"
+                android:textAlignment="gravity"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/content3_jornadas_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="37dp"
+                android:paddingStart="0dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="8dp"
+                android:text="@string/content3_jornadas_6"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/content4_jornadas_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="37dp"
+                android:lineSpacingExtra="1sp"
+                android:paddingStart="0dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="8dp"
+                android:text="@string/content4_jornadas_6"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/content5_jornadas_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="37dp"
+                android:lineSpacingExtra="1sp"
+                android:paddingStart="0dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="8dp"
+                android:text="@string/content5_jornadas_6"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/content6_jornadas_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="37dp"
+                android:lineSpacingExtra="1sp"
+                android:paddingStart="0dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="16dp"
+                android:text="@string/content6_jornadas_6"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/link_progama_j6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -85,7 +157,7 @@
                 android:focusable="true"
                 android:lineSpacingExtra="1sp"
                 android:linksClickable="true"
-                android:text="@string/programa_link"
+                android:text="@string/programa_link_frontera"
                 android:textAlignment="viewStart"
                 android:textColor="@color/colorPrimary"
                 android:textColorLink="@color/colorLink"

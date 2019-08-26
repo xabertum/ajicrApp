@@ -29,6 +29,19 @@
     <string name="card_1_title">Prueba</string>
     <string name="card_1_content">prueba</string>
 
+    <!--  Jornadas 6 -->
+    <string name="title_jornadas_6">Curso de Verano: “Visiones desde la Frontera”</string>
+    <string name="fecha_jornadas_6">Fecha realización - 25, 26, 27 y 28 de Junio de 2019</string>
+    <string name="cartelJornadas6">Cartel de las Jornadas: </string>
+    <string name="content1_jornadas_6">Desde la Asociación de Jóvenes Investigadores en Ciencias de las Religiones (AJICR) tenemos el honor de presentaros el evento que se organiza en <b>La Casa Negra</b> (Almansa, Albacete) bajo el título <b>“VISIONES DESDE LA FRONTERA”</b> que se celebrará del 25 al 28 de junio de 2019.</string>
+    <string name="content2_jornadas_6">“A la luz de los últimos debates historiográficos sobre las consideraciones fronterizas en una Península Ibérica cuya historia ha oscilado entre sistemas considerados antagónicos, se comprueba que esa dualidad no solamente afecta a la época medieval, sino que la frontera asumida se va manteniendo, cambiante y permeable, hasta nuestros días. La investigación académica actual se está preocupando por repensar y redefinir dicha frontera no solamente como un concepto físico y militarizado, si no como noción permeable, de gran riqueza cultural, base de la memoria histórica e interesante como espacio donde “suceden cosas”. A través del análisis de las múltiples fronteras, Almansa, como “lugar de paso”, es el sitio idóneo para acoger un foro de debate sobre tales visiones, con aportaciones tanto del ámbito académico como de todas aquellas personas que deseen participar, compartiendo sus ideas y observaciones personales. Nuestra meta es crear un <b>espacio multidisciplinar</b> donde tengan cabida los estudios en filología, antropología, historia, arqueología, bellas artes,historia del arte, sociología, arquitectura, artes populares, historia de las religiones, etc., etc., etc., en todas las épocas y espacios del entorno mediterráneo, incluidas las experiencias propias, y hacerlas cristalizar en esas <b>VISIONES DESDE LA FRONTERA</b> desde un lugar donde el intercambio positivo de ideas siempre es posible: La Casa Negra.”</string>
+    <string name="content3_jornadas_6"><li>Creación de un <b>foro de debate multidisciplinar</b> donde tengan voz tanto el mundo académico como las personas interesadas en este tipo de estudios.</li></string>
+    <string name="content4_jornadas_6"><li>Analizar la <b>idea de frontera</b> desde todos los puntos de vista posibles, sin necesidad de tomarla como concepto físico y temporal.</li></string>
+    <string name="content5_jornadas_6"><li>Repensar la <b>tradición narrativa historiográfica</b> como continuidad y no como una sucesión artificial compartimentada.</li></string>
+    <string name="content6_jornadas_6"><li>Generar <b>ediciones posteriores</b> de este seminario.</li></string>
+    <string name="galeria_title_jornadas_6">Fotos de “Visiones desde la Frontera”</string>
+    <string name="programa_link_frontera"><a href="https://ajicr.files.wordpress.com/2019/08/tripticofrontera.pdf">Programa Visiones desde la Frontera</a></string>
+
     <!--  Jornadas V -->
     <string name="title_jornadas_v">V Jornadas Universitarias de AJICR: “Política y Religiones”</string>
     <string name="subTitle_jornadas_v">Religiones y Educación: ¿Por qué? ¿Cómo?</string>
@@ -96,20 +109,20 @@
     <string name="programa_jornadas1_link"><a href="https://ajicr.files.wordpress.com/2016/12/programa-religio-net1.pdf">Programa I Jornadas</a></string>
 
 
-    <!-- Encuentroa I TAB 1 -->
+    <!-- Encuentros I TAB 1 -->
     <string name="title_encuentro_1">I Encuentro de Jóvenes Investigadores en Ciencias de las Religiones 2017 (I EJICR)</string>
     <string name="fecha_encuentro_1">Fecha realización - 26, 27 y 28 de Abril de 2017</string>
     <string name="content_1_encuentro_1">En nombre del comité organizador del <b>I Encuentro de Jóvenes Investigadores en Ciencias de las Religiones</b>, os queremos transmitir nuestros más sinceros agradecimientos: a los ponentes, así como a los/las moderadores/as, por haber contado con vuestra excelente participación y compromiso, a la Universidad Complutense de Madrid, la Facultad de Geografía e Historia, al Instituto Universitario de Ciencias de las Religiones, Casa Árabe y Casa do Brasil, por confiar y colaborar con AJICR, a la pastelería Galicia por habernos endulzado las tres jornadas del Encuentro con el abastecimiento de los deliciosos polvorones ‘El Toro’, y en general, al público asistente que se ha interesado y ha disfrutado de este evento. Ha sido un placer haber contado con vuestra presencia, gracias a la cual estos días han sido un éxito.</string>
 
-    <!-- Encuentroa I TAB 2 -->
+    <!-- Encuentros I TAB 2 -->
 
     <string name="programa_link"><a href="https://ajicr.files.wordpress.com/2017/03/programa-ejicr-6-docx.pdf">Programa I EJICR</a></string>
 
 
-    <!-- Encuentroa I TAB 3 -->
+    <!-- Encuentros I TAB 3 -->
     <string name="galeria_title">Fotos I EJICR</string>
 
-    <!-- Encuentroa II TAB 1 -->
+    <!-- Encuentros II TAB 1 -->
     <string name="title_encuentro_2">II Encuentro de Jóvenes Investigadores en Ciencias de las Religiones 2019 (II EJICR)</string>
     <string name="fecha_encuentro_2">Fecha realización - 3, 4 y 5 de Abril de 2019</string>
     <string name="content_2EJICR">El éxito y la buena acogida del I Encuentro de Jóvenes Investigadores en Ciencias de las Religiones, de carácter internacional, puso de manifiesto que la sociedad española en general, y el mundo universitario en particular, reclaman foros de debate e intercambio de ideas acerca de realidades tan complejas y poliédricas como son las religiones. Y es que una disciplina tan joven en España, la Historia o Ciencias de las Religiones, está logrando consolidarse poco a poco en la universidad pública a través de programas de formación como el Máster en Ciencias de las Religiones de la UCM o el recientemente inaugurado Máster en Ciencias de las Religiones: Historia y sociedad de la UPO. En consecuencia, AJICR busca dar respuesta a esta necesidad celebrando, tras dos años, el II EJICR, que tendrá lugar los días <b>3 y 4 de abril de 2019 en el Salón de Actos de la Facultad de Filología (Edificio D) de la Universidad Complutense de Madrid </b>, situado en la Calle Profesor Aranguren, s/n (ver espacios), y el día <b>5 de abril en el Centro Sefarad-Israel</b>, en C/ Mayor, 69 (ver espacios). También se realizarán diferentes actividades culturales durante el Encuentro.</string>
@@ -138,13 +151,13 @@
     <string name="comiteCientifico15_2EJCIR"><li><b>Dra. Vanessa del Prete Mainer.</b> Universidad Complutense de Madrid.</li></string>
     <string name="comiteCientifico16_2EJCIR"><li><b>Profa. Dra. Ana Ruiz Osuna.</b> Universidad de Córdoba.</li></string>
 
-    <!-- Encuentroa II TAB Visita -->
+    <!-- Encuentros II TAB Visita -->
     <string name="titleVisita">Actividades</string>
     <string name="contentVisita">Durante el II Encuentro de Jóvenes Investigadores en Ciencias de las Religiones (EJICR) se realizarán diferentes actividades culturales. Una de ellas será una visita al Madrid Islámico que tendrá lugar el día <b>5 de abril</b> para concluir el evento. El punto de encuentro será la <b>Plaza de los Carros (frente al Museo de San Isidro en La Latina) a las 17:00.</b></string>
     <string name="visitaLink"><a href="https://ajicr.files.wordpress.com/2019/03/madrid-islamico-ajicr.pdf">Itinerario de la visita “Madrid: Fundación Emiral”</a></string>
     <string name="localVisita">Localización del punto de encuentro:</string>
 
-    <!-- Encuentroa II TAB Localizacion -->
+    <!-- Encuentros II TAB Localizacion -->
     <string name="titleLocalizacion">Localizaciones</string>
     <string name="contentLocalizaciones">Tanto el Encuentro como las actividades programadas se realizarán en dos sedes diferentes, la <b>Facultad de Filología, edificios A y D</b> y <b>Centro Sefarad-Israel</b>. Además el jueves se ha programado una cena en el <b>Penalti Lounge Bar</b>.</string>
     <string name="localizacion_1"><li>Sesiones 1 y 2. Salón de Actos, Edificio D, Facultad de Filología, UCM.</li></string>
@@ -152,7 +165,7 @@
     <string name="localizacion_3"><li>Sesión 3. Centro Sefarad-Israel.</li></string>
     <string name="localizacion_4"><li>Cena Jueves, Penalti Lounge Bar (Moncloa).</li></string>
 
-    <!-- Encuentroa II TAB Alojamiento -->
+    <!-- Encuentros II TAB Alojamiento -->
     <string name="Alojamiento">Alojamiento</string>
     <string name="contentAlojamiento">Debido al elevado costo y a la lejanía de los habituales lugares de alojamiento cercanos al espacio del Encuentro, AJICR propone a sus asistentes y participantes el <b>Colegio Mayor Universitario Casa do Brasil</b>, situado en la Avda. de la Memoria, 3.</string>
     <string name="alojamientoTitulo">Localización del Alojamiento:</string>
@@ -164,7 +177,7 @@
     <string name="precio5"><li>Media pensión - 85€ / noche</li></string>
     <string name="precio6"><li>Pensión completa - 100€ / noche</li></string>
 
-    <!-- Contendio de Contacto -->
+    <!-- Contenido de Contacto -->
     <string name="titleContacto">Contacto</string>
     <string name="contentContacto">Puede contactar con AJICR a través de:</string>
     <string name="instagramContacto"><a href="https://www.instagram.com/_ajicr/">Instagram</a></string>

@@ -25,7 +25,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
                 android:lineSpacingExtra="1sp"
-                android:text="@string/galeria_title"
+                android:text="@string/galeria_title_jornadas_6"
                 android:textAlignment="center"
                 android:textAllCaps="false"
                 android:textColor="@color/colorPrimary"
@@ -38,94 +38,174 @@
                 app:layout_constraintVertical_chainStyle="spread_inside" />
 
             <ImageView
-                android:id="@+id/encuentroGallery_1"
+                android:id="@+id/jornada_6_Gallery_1"
                 android:layout_width="match_parent"
                 android:layout_height="333dp"
                 android:layout_marginBottom="-24dp"
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
-                app:srcCompat="@drawable/encuentro1_1" />
+                app:srcCompat="@drawable/jornada_6_gallery_1" />
 
             <ImageView
-                android:id="@+id/encuentroGallery_2"
+                android:id="@+id/jornada_6_Gallery_2"
                 android:layout_width="match_parent"
                 android:layout_height="333dp"
                 android:layout_marginBottom="-24dp"
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
-                app:srcCompat="@drawable/encuentro1_2" />
+                app:srcCompat="@drawable/jornada_6_gallery_2" />
 
             <ImageView
-                android:id="@+id/encuentroGallery_3"
+                android:id="@+id/jornada_6_Gallery_3"
                 android:layout_width="match_parent"
                 android:layout_height="333dp"
                 android:layout_marginBottom="-24dp"
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
-                app:srcCompat="@drawable/encuentro1_3" />
+                app:srcCompat="@drawable/jornada_6_gallery_3" />
 
             <ImageView
-                android:id="@+id/encuentroGallery_4"
+                android:id="@+id/jornada_6_Gallery_4"
                 android:layout_width="match_parent"
                 android:layout_height="333dp"
                 android:layout_marginBottom="-24dp"
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
-                app:srcCompat="@drawable/encuentro1_4" />
+                app:srcCompat="@drawable/jornada_6_gallery_4" />
 
             <ImageView
-                android:id="@+id/encuentroGallery_5"
+                android:id="@+id/jornada_6_Gallery_5"
                 android:layout_width="match_parent"
                 android:layout_height="333dp"
                 android:layout_marginBottom="-24dp"
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
-                app:srcCompat="@drawable/encuentro1_5" />
+                app:srcCompat="@drawable/jornada_6_gallery_5" />
 
             <ImageView
-                android:id="@+id/encuentroGallery_6"
+                android:id="@+id/jornada_6_Gallery_6"
                 android:layout_width="match_parent"
                 android:layout_height="333dp"
                 android:layout_marginBottom="-24dp"
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
-                app:srcCompat="@drawable/encuentro1_6" />
+                app:srcCompat="@drawable/jornada_6_gallery_6" />
 
             <ImageView
-                android:id="@+id/encuentroGallery_7"
+                android:id="@+id/jornada_6_Gallery_7"
                 android:layout_width="match_parent"
                 android:layout_height="333dp"
                 android:layout_marginBottom="-24dp"
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
-                app:srcCompat="@drawable/encuentro1_7" />
+                app:srcCompat="@drawable/jornada_6_gallery_7" />
 
             <ImageView
-                android:id="@+id/encuentroGallery_8"
+                android:id="@+id/jornada_6_Gallery_8"
                 android:layout_width="match_parent"
                 android:layout_height="333dp"
                 android:layout_marginBottom="-24dp"
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
-                app:srcCompat="@drawable/encuentro1_8" />
+                app:srcCompat="@drawable/jornada_6_gallery_8" />
 
             <ImageView
-                android:id="@+id/encuentroGallery_9"
+                android:id="@+id/jornada_6_Gallery_9"
                 android:layout_width="match_parent"
                 android:layout_height="333dp"
                 android:layout_marginBottom="-24dp"
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
-                app:srcCompat="@drawable/encuentro1_9" />
+                app:srcCompat="@drawable/jornada_6_gallery_9" />
 
             <ImageView
-                android:id="@+id/encuentroGallery_10"
+                android:id="@+id/jornada_6_Gallery_10"
                 android:layout_width="match_parent"
                 android:layout_height="333dp"
                 android:layout_marginBottom="-24dp"
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
-                app:srcCompat="@drawable/encuentro1_10" />
+                app:srcCompat="@drawable/jornada_6_gallery_10" />
+            <ImageView
+                android:id="@+id/jornada_6_Gallery_11"
+                android:layout_width="match_parent"
+                android:layout_height="333dp"
+                android:layout_marginBottom="-24dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:srcCompat="@drawable/jornada_6_gallery_11" />
+            <ImageView
+                android:id="@+id/jornada_6_Gallery_12"
+                android:layout_width="match_parent"
+                android:layout_height="333dp"
+                android:layout_marginBottom="-24dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:srcCompat="@drawable/jornada_6_gallery_12" />
+            <ImageView
+                android:id="@+id/jornada_6_Gallery_13"
+                android:layout_width="match_parent"
+                android:layout_height="333dp"
+                android:layout_marginBottom="-24dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:srcCompat="@drawable/jornada_6_gallery_13" />
+            <ImageView
+                android:id="@+id/jornada_6_Gallery_14"
+                android:layout_width="match_parent"
+                android:layout_height="333dp"
+                android:layout_marginBottom="-24dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:srcCompat="@drawable/jornada_6_gallery_14" />
+            <ImageView
+                android:id="@+id/jornada_6_Gallery_15"
+                android:layout_width="match_parent"
+                android:layout_height="333dp"
+                android:layout_marginBottom="-24dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:srcCompat="@drawable/jornada_6_gallery_15" />
+            <ImageView
+                android:id="@+id/jornada_6_Gallery_16"
+                android:layout_width="match_parent"
+                android:layout_height="333dp"
+                android:layout_marginBottom="-24dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:srcCompat="@drawable/jornada_6_gallery_16" />
+            <ImageView
+                android:id="@+id/jornada_6_Gallery_17"
+                android:layout_width="match_parent"
+                android:layout_height="333dp"
+                android:layout_marginBottom="-24dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:srcCompat="@drawable/jornada_6_gallery_17" />
+            <ImageView
+                android:id="@+id/jornada_6_Gallery_18"
+                android:layout_width="match_parent"
+                android:layout_height="333dp"
+                android:layout_marginBottom="-24dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:srcCompat="@drawable/jornada_6_gallery_18" />
+            <ImageView
+                android:id="@+id/jornada_6_Gallery_19"
+                android:layout_width="match_parent"
+                android:layout_height="333dp"
+                android:layout_marginBottom="-24dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:srcCompat="@drawable/jornada_6_gallery_19" />
+            <ImageView
+                android:id="@+id/jornada_6_Gallery_20"
+                android:layout_width="match_parent"
+                android:layout_height="333dp"
+                android:layout_marginBottom="-24dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:srcCompat="@drawable/jornada_6_gallery_20" />
         </LinearLayout>
     </ScrollView>
 
