@@ -13,7 +13,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import es.xabertum.ajicr_app.R;
 
-public class fragment_encuentros_1_gallery extends Fragment {
+public class Fragment_encuentros_1_gallery extends Fragment {
 
     private ImageView imageView1, imageView2, imageView3, imageView4, imageView5, imageView6, imageView7, imageView8, imageView9, imageView10;
 
