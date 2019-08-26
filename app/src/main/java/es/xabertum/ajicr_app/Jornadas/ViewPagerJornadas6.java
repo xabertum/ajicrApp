@@ -1,17 +1,10 @@
-package es.xabertum.ajicr_app.Encuentros;
+package es.xabertum.ajicr_app.Jornadas;
 
 import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-
-import com.google.android.material.tabs.TabLayout;
-
-import java.util.ArrayList;
-import java.util.List;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import com.google.android.material.tabs.TabLayout;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
@@ -19,8 +12,14 @@ import androidx.fragment.app.FragmentStatePagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 import es.xabertum.ajicr_app.R;
 
-public class ViewPagerEncuentros2 extends Fragment {
-    
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ViewPagerJornadas6 extends Fragment {
     private ViewPager mViewPager;
     private TabLayout mTabs;
 
@@ -34,7 +33,7 @@ public class ViewPagerEncuentros2 extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.fragment_encuentro_1_tabbed, container, false);
+        View view = inflater.inflate(R.layout.fragment_jornadas_6_tabbed, container, false);
 
         // Setting ViewPager for each Tab
         mViewPager = view.findViewById(R.id.viewpager);
@@ -52,11 +51,8 @@ public class ViewPagerEncuentros2 extends Fragment {
     private void setupViewPager(ViewPager mViewPager) {
 
         Adapter adapter = new Adapter(getChildFragmentManager());
-        adapter.addFragment(new Fragment_encuentros_2_principal(), "Principal");
-        adapter.addFragment(new Fragment_encuentros_2_localizacion(), "Espacios");
-        adapter.addFragment(new Fragment_encuentros_2_visita(), "Visitas");
-        adapter.addFragment(new Fragment_encuentros_2_alojamiento(), "Alojamiento");
-
+        adapter.addFragment(new Fragment_jornadas_6_principal(), "Principal");
+        adapter.addFragment(new Fragment_jornadas_6_gallery(), "Galeria");
         mViewPager.setAdapter(adapter);
 
     }
@@ -73,7 +69,7 @@ public class ViewPagerEncuentros2 extends Fragment {
     }
 
     static class Adapter extends FragmentStatePagerAdapter {
-        private final List<Fragment> mFragmentList = new ArrayList<>();
+        private final List<androidx.fragment.app.Fragment> mFragmentList = new ArrayList<>();
         private final List<String> mFragmentTitleList = new ArrayList<>();
 
         public Adapter(FragmentManager manager) {
@@ -81,7 +77,7 @@ public class ViewPagerEncuentros2 extends Fragment {
         }
 
         @Override
-        public Fragment getItem(int position) {
+        public androidx.fragment.app.Fragment getItem(int position) {
             return mFragmentList.get(position);
         }
 
@@ -90,7 +86,7 @@ public class ViewPagerEncuentros2 extends Fragment {
             return mFragmentList.size();
         }
 
-        public void addFragment(Fragment fragment, String title) {
+        public void addFragment(androidx.fragment.app.Fragment fragment, String title) {
             mFragmentList.add(fragment);
             mFragmentTitleList.add(title);
         }

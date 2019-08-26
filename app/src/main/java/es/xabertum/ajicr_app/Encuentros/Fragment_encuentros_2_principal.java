@@ -15,7 +15,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import es.xabertum.ajicr_app.R;
 
-public class Fragment_encuentros_2A extends Fragment {
+public class Fragment_encuentros_2_principal extends Fragment {
 
     View encuentro_2;
     ImageView imageViewCartel;
@@ -25,7 +25,7 @@ public class Fragment_encuentros_2A extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState ) {
 
-        encuentro_2 = inflater.inflate(R.layout.fragment_encuentro_2a,null);
+        encuentro_2 = inflater.inflate(R.layout.fragment_encuentro_2_principal,null);
         imageViewCartel = encuentro_2.findViewById(R.id.cartel_encuentro_2);
         imageViewPortada = encuentro_2.findViewById(R.id.imageViewPortada_e1);
 

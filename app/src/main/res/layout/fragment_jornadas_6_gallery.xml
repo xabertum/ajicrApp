@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="70dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:lineSpacingExtra="1sp"
+                android:text="@string/galeria_title"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/content_home"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_chainStyle="spread_inside" />
+
+            <ImageView
+                android:id="@+id/encuentroGallery_1"
+                android:layout_width="match_parent"
+                android:layout_height="333dp"
+                android:layout_marginBottom="-24dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:srcCompat="@drawable/encuentro1_1" />
+
+            <ImageView
+                android:id="@+id/encuentroGallery_2"
+                android:layout_width="match_parent"
+                android:layout_height="333dp"
+                android:layout_marginBottom="-24dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:srcCompat="@drawable/encuentro1_2" />
+
+            <ImageView
+                android:id="@+id/encuentroGallery_3"
+                android:layout_width="match_parent"
+                android:layout_height="333dp"
+                android:layout_marginBottom="-24dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:srcCompat="@drawable/encuentro1_3" />
+
+            <ImageView
+                android:id="@+id/encuentroGallery_4"
+                android:layout_width="match_parent"
+                android:layout_height="333dp"
+                android:layout_marginBottom="-24dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:srcCompat="@drawable/encuentro1_4" />
+
+            <ImageView
+                android:id="@+id/encuentroGallery_5"
+                android:layout_width="match_parent"
+                android:layout_height="333dp"
+                android:layout_marginBottom="-24dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:srcCompat="@drawable/encuentro1_5" />
+
+            <ImageView
+                android:id="@+id/encuentroGallery_6"
+                android:layout_width="match_parent"
+                android:layout_height="333dp"
+                android:layout_marginBottom="-24dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:srcCompat="@drawable/encuentro1_6" />
+
+            <ImageView
+                android:id="@+id/encuentroGallery_7"
+                android:layout_width="match_parent"
+                android:layout_height="333dp"
+                android:layout_marginBottom="-24dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:srcCompat="@drawable/encuentro1_7" />
+
+            <ImageView
+                android:id="@+id/encuentroGallery_8"
+                android:layout_width="match_parent"
+                android:layout_height="333dp"
+                android:layout_marginBottom="-24dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:srcCompat="@drawable/encuentro1_8" />
+
+            <ImageView
+                android:id="@+id/encuentroGallery_9"
+                android:layout_width="match_parent"
+                android:layout_height="333dp"
+                android:layout_marginBottom="-24dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:srcCompat="@drawable/encuentro1_9" />
+
+            <ImageView
+                android:id="@+id/encuentroGallery_10"
+                android:layout_width="match_parent"
+                android:layout_height="333dp"
+                android:layout_marginBottom="-24dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:srcCompat="@drawable/encuentro1_10" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

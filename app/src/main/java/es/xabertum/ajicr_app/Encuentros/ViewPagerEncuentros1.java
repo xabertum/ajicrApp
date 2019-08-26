@@ -52,7 +52,7 @@ public class ViewPagerEncuentros1 extends Fragment {
     private void setupViewPager(ViewPager mViewPager) {
 
         Adapter adapter = new Adapter(getChildFragmentManager());
-        adapter.addFragment(new Fragment_encuentros_1A(), "Principal");
+        adapter.addFragment(new Fragment_encuentros_1_principal(), "Principal");
         adapter.addFragment(new fragment_encuentros_1_gallery(), "Galeria");
         mViewPager.setAdapter(adapter);
 

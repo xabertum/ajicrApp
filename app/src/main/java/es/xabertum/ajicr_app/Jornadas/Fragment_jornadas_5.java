@@ -24,7 +24,7 @@ import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-public class Fragment_jornadas_v extends Fragment implements OnMapReadyCallback {
+public class Fragment_jornadas_5 extends Fragment implements OnMapReadyCallback {
 
     GoogleMap mGoogleMap;
     MapView mapView;
@@ -35,7 +35,7 @@ public class Fragment_jornadas_v extends Fragment implements OnMapReadyCallback 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState ) {
-        jornadasV = inflater.inflate(R.layout.fragment_jornadas_v, null);
+        jornadasV = inflater.inflate(R.layout.fragment_jornadas_5, null);
         jornadasV.setSaveFromParentEnabled(false);
         imageViewPortada_j5 = jornadasV.findViewById(R.id.imageViewPortada_j5);
         cartel_j5 = jornadasV.findViewById(R.id.cartelJornadasV);
