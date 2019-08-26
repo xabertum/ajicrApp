@@ -52,7 +52,7 @@ public class ViewPagerJornadas6 extends Fragment {
 
         Adapter adapter = new Adapter(getChildFragmentManager());
         adapter.addFragment(new Fragment_jornadas_6_principal(), "Principal");
-        adapter.addFragment(new Fragment_jornadas_6_gallery(), "Galeria");
+        adapter.addFragment(new Fragment_jornadas_6_gallery(), "Galería");
         mViewPager.setAdapter(adapter);
 
     }
