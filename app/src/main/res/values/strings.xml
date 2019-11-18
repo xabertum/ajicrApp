@@ -29,6 +29,15 @@
     <string name="card_1_title">Prueba</string>
     <string name="card_1_content">prueba</string>
 
+    <!-- Jornadas 7 Satanismo -->
+    <string name="title_jornadas_7">VI Jornadas Universitarias de AJICR: “La Experiencia Siniestra”</string>
+    <string name="subTitle_jornadas_7">Satanismo y Sendero de la Mano Izquierda</string>
+    <string name="fecha_jornadas_7">Fecha realización - 28 de Noviembre de 2019</string>
+    <string name="cartelJornadas_7">Cartel de las Jornadas: </string>
+    <string name="content1_jornadas_7">Desde AJICR y junto a la colaboración de Satanistas de España os presentamos nuestras próximas jornadas con el formato de seminario sobre Satanismo y Sendero de la Mano Izquierda. ¿Qué es el Satanismo? ¿Cuáles son los elementos que lo componen? ¿Son las connotaciones que tiene veraces?. No te pierdas este seminario sobre uno de los temas más controvertidos en Ciencias de las Religiones.</string>
+    <string name="content2_jornadas_7">El acto tendrá lugar el 28 de Noviembre de 2019 en la Sala de Juntas del Edificio A de la Facultad de Filología de la Universidad Complutense de Madrid.</string>
+    <string name="content9_jornadas_7"><a href="https://ajicr.files.wordpress.com/2019/10/76654355_2452823071626452_8011674527572426752_o.jpg">Programa VI Jornadas</a>.</string>
+
     <!--  Jornadas 6 -->
     <string name="title_jornadas_6">Curso de Verano: “Visiones desde la Frontera”</string>
     <string name="fecha_jornadas_6">Fecha realización - 25, 26, 27 y 28 de Junio de 2019</string>

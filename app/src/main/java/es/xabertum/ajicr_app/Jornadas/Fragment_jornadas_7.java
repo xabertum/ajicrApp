@@ -2,17 +2,16 @@ package es.xabertum.ajicr_app.Jornadas;
 
 
 import android.os.Bundle;
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.fragment.app.Fragment;
-import es.xabertum.ajicr_app.R;
-
 import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 
 import com.bumptech.glide.Glide;
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -24,36 +23,38 @@ import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-public class Fragment_jornadas_5 extends Fragment implements OnMapReadyCallback {
+import es.xabertum.ajicr_app.R;
+
+public class Fragment_jornadas_7 extends Fragment implements OnMapReadyCallback {
 
     GoogleMap mGoogleMap;
     MapView mapView;
-    View jornadasV;
-    ImageView imageViewPortada_j5;
-    ImageView cartel_j5;
+    View jornadasVI;
+    ImageView imageViewPortada_j7;
+    ImageView cartel_j7;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState ) {
-        jornadasV = inflater.inflate(R.layout.fragment_jornadas_5, null);
-        jornadasV.setSaveFromParentEnabled(false);
-        imageViewPortada_j5 = jornadasV.findViewById(R.id.imageViewPortada_j7);
-        cartel_j5 = jornadasV.findViewById(R.id.cartelJornadas7);
+        jornadasVI = inflater.inflate(R.layout.fragment_jornadas_7, null);
+        jornadasVI.setSaveFromParentEnabled(false);
+        imageViewPortada_j7 = jornadasVI.findViewById(R.id.imageViewPortada_j7);
+        cartel_j7 = jornadasVI.findViewById(R.id.cartelJornadas7);
 
-        Glide.with(this).load(R.drawable.portada_j5).into(imageViewPortada_j5);
-        Glide.with(this).load(R.drawable.cartel_jornadas_5).into(cartel_j5);
+        Glide.with(this).load(R.drawable.portada_j7).into(imageViewPortada_j7);
+        Glide.with(this).load(R.drawable.cartel_jornadas_7).into(cartel_j7);
 
-        TextView estatutosLink = jornadasV.findViewById(R.id.link_progama_j5);
+        TextView estatutosLink = jornadasVI.findViewById(R.id.link_progama_j5);
         estatutosLink.setMovementMethod(LinkMovementMethod.getInstance());
 
-        return jornadasV;
+        return jornadasVI;
     }
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        mapView = (MapView) jornadasV.findViewById(R.id.mapView);
+        mapView = (MapView) jornadasVI.findViewById(R.id.mapView);
         if (mapView != null) {
             mapView.onCreate(null);
             mapView.onResume();

@@ -27,7 +27,7 @@
                 android:paddingStart="16dp"
                 android:paddingTop="8dp"
                 android:paddingEnd="16dp"
-                android:text="@string/title_jornadas_v"
+                android:text="@string/title_jornadas_7"
                 android:textAlignment="textStart"
                 android:textAllCaps="false"
                 android:textColor="@color/colorPrimary"
@@ -42,12 +42,13 @@
                 android:paddingTop="8dp"
                 android:paddingEnd="16dp"
                 android:paddingBottom="8dp"
-                android:text="@string/subTitle_jornadas_v"
+                android:text="@string/subTitle_jornadas_7"
                 android:textAlignment="textStart"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="14sp" />
 
             <ImageView
+                app:srcCompat="@drawable/portada_j7"
                 android:id="@+id/imageViewPortada_j7"
                 android:layout_width="wrap_content"
                 android:layout_height="208dp" />
@@ -71,7 +72,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="40dp"
                     android:paddingStart="2dp"
-                    android:text="@string/fecha_jornadas_v"
+                    android:text="@string/fecha_jornadas_7"
                     android:textSize="12sp" />
 
             </RelativeLayout>
@@ -84,7 +85,7 @@
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
                 android:paddingBottom="8dp"
-                android:text="@string/content1_jornadas_v"
+                android:text="@string/content1_jornadas_7"
                 android:textColor="@color/colorPrimary" />
 
             <TextView
@@ -95,66 +96,7 @@
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
                 android:paddingBottom="8dp"
-                android:text="@string/content2_jornadas_v"
-                android:textColor="@color/colorPrimary" />
-
-            <TextView
-                android:id="@+id/content3_jornadas_v2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp"
-                android:paddingBottom="8dp"
-                android:text="@string/content3_jornadas_v"
-                android:textAlignment="gravity"
-                android:textColor="@color/colorPrimary" />
-
-            <TextView
-                android:id="@+id/content4_jornadas_v2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="37dp"
-                android:paddingStart="0dp"
-                android:paddingEnd="16dp"
-                android:paddingBottom="8dp"
-                android:text="@string/content4_jornadas_v"
-                android:textColor="@color/colorPrimary" />
-
-            <TextView
-                android:id="@+id/content5_jornadas_v2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="37dp"
-                android:lineSpacingExtra="1sp"
-                android:paddingStart="0dp"
-                android:paddingEnd="16dp"
-                android:paddingBottom="8dp"
-                android:text="@string/content5_jornadas_v"
-                android:textColor="@color/colorPrimary" />
-
-            <TextView
-                android:id="@+id/content6_jornadas_v2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="37dp"
-                android:lineSpacingExtra="1sp"
-                android:paddingStart="0dp"
-                android:paddingEnd="16dp"
-                android:paddingBottom="8dp"
-                android:text="@string/content6_jornadas_v"
-                android:textColor="@color/colorPrimary" />
-
-            <TextView
-                android:id="@+id/content7_jornadas_v2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="37dp"
-                android:lineSpacingExtra="1sp"
-                android:paddingStart="0dp"
-                android:paddingEnd="16dp"
-                android:paddingBottom="8dp"
-                android:text="@string/content7_jornadas_v"
+                android:text="@string/content2_jornadas_7"
                 android:textColor="@color/colorPrimary" />
 
             <TextView
@@ -164,7 +106,7 @@
                 android:paddingLeft="16dp"
                 android:paddingEnd="16dp"
                 android:paddingBottom="8dp"
-                android:text="@string/content9_jornadas_v"
+                android:text="@string/content9_jornadas_7"
                 android:textColor="@color/colorLink"
                 android:textColorLink="@color/colorLink" />
 
@@ -175,10 +117,11 @@
                 android:paddingLeft="16dp"
                 android:paddingEnd="16dp"
                 android:paddingBottom="4dp"
-                android:text="@string/cartelJornadasV"
+                android:text="@string/cartelJornadas_7"
                 android:textColor="@color/colorPrimary" />
 
             <ImageView
+                app:srcCompat="@drawable/cartel_jornadas_7"
                 android:id="@+id/cartelJornadas7"
                 android:layout_width="match_parent"
                 android:layout_height="521dp"
