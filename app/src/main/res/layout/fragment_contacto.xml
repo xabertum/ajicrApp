@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:layout_height="match_parent">
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fillViewport="true"
-        app:layout_constraintTop_toTopOf="parent">
 
     <LinearLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        app:layout_constraintTop_toTopOf="parent">
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/textView"
@@ -28,190 +24,254 @@
             android:textAllCaps="false"
             android:textColor="@color/colorPrimary"
             android:textSize="20sp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_chainStyle="spread_inside" />
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/content_home"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="17dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="17dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="@dimen/default_gap"
             android:lineSpacingExtra="1sp"
             android:text="@string/contentContacto"
             android:textAlignment="gravity"
             android:textColor="@color/colorPrimary"
-            android:typeface="normal"
-            app:layout_constraintBottom_toTopOf="@+id/navigation"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.51"
-            app:layout_constraintVertical_chainStyle="packed"/>
+            android:typeface="normal" />
 
-        <RelativeLayout
+        <GridLayout
+            android:id="@+id/gridLayout"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingStart="24dp"
-            android:paddingTop="8dp"
-            android:paddingBottom="8dp">
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="64dp"
+            android:columnCount="2"
+            android:drawingCacheQuality="high">
 
-            <ImageView
-                android:id="@+id/instagram"
-                android:layout_width="32dp"
-                android:layout_height="32dp"
-                android:layout_marginStart="16dp"
-                app:srcCompat="@drawable/instagramicon" />
-
-            <TextView
-                android:id="@+id/instragramLink"
+            <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="55dp"
-                android:layout_marginTop="5dp"
-                android:text="@string/instagramContacto"
-                android:textColorLink="@color/colorLink"
-                android:textSize="12sp" />
+                android:layout_margin="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="10dp">
 
-        </RelativeLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="44dp"
+                    android:paddingTop="32dp"
+                    android:paddingRight="44dp"
+                    android:paddingBottom="32dp">
 
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingStart="24dp"
-            android:paddingTop="8dp"
-            android:paddingBottom="8dp">
 
-            <ImageView
-                android:id="@+id/twitter"
-                android:layout_width="32dp"
-                android:layout_height="32dp"
-                android:layout_marginStart="16dp"
-                app:srcCompat="@drawable/twittericon" />
+                    <ImageView
+                        android:id="@+id/instagram"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        app:srcCompat="@drawable/instagramicon" />
 
-            <TextView
-                android:id="@+id/twitterLink"
+                    <TextView
+                        android:id="@+id/instragramLink"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/instagramContacto"
+                        android:textAlignment="center"
+                        android:textColorLink="@color/colorLink"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="55dp"
-                android:layout_marginTop="5dp"
-                android:text="@string/twitterContacto"
-                android:textColorLink="@color/colorLink"
-                android:textSize="12sp" />
+                android:layout_margin="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="10dp">
 
-        </RelativeLayout>
 
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingStart="24dp"
-            android:paddingTop="8dp"
-            android:paddingBottom="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="44dp"
+                    android:paddingTop="32dp"
+                    android:paddingRight="44dp"
+                    android:paddingBottom="32dp">
 
-            <ImageView
-                android:id="@+id/linkedin"
-                android:layout_width="32dp"
-                android:layout_height="32dp"
-                android:layout_marginStart="16dp"
-                app:srcCompat="@drawable/squarelinkedin" />
 
-            <TextView
-                android:id="@+id/linkedinLink"
+                    <ImageView
+                        android:id="@+id/twitter"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        app:srcCompat="@drawable/twittericon" />
+
+                    <TextView
+                        android:id="@+id/twitterLink"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/twitterContacto"
+                        android:textAlignment="center"
+                        android:textColorLink="@color/colorLink"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="55dp"
-                android:layout_marginTop="5dp"
-                android:text="@string/linkedinContacto"
-                android:textColorLink="@color/colorLink"
-                android:textSize="12sp" />
+                android:layout_margin="16dp"
 
-        </RelativeLayout>
+                app:cardCornerRadius="8dp"
+                app:cardElevation="10dp">
 
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingStart="24dp"
-            android:paddingTop="8dp"
-            android:paddingBottom="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="44dp"
+                    android:paddingTop="32dp"
+                    android:paddingRight="44dp"
+                    android:paddingBottom="32dp">
 
-            <ImageView
-                android:id="@+id/facebook"
-                android:layout_width="32dp"
-                android:layout_height="32dp"
-                android:layout_marginStart="16dp"
-                app:srcCompat="@drawable/fblogo" />
+                    <ImageView
+                        android:id="@+id/linkedin"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        app:srcCompat="@drawable/squarelinkedin" />
 
-            <TextView
-                android:id="@+id/facebookLink"
+
+                    <TextView
+                        android:id="@+id/linkedinLink"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/linkedinContacto"
+                        android:textAlignment="center"
+                        android:textColorLink="@color/colorLink"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="55dp"
-                android:layout_marginTop="5dp"
-                android:text="@string/facebookContacto"
-                android:textColorLink="@color/colorLink"
-                android:textSize="12sp" />
+                android:layout_margin="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="10dp">
 
-        </RelativeLayout>
 
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingStart="24dp"
-            android:paddingTop="8dp"
-            android:paddingBottom="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="44dp"
+                    android:paddingTop="32dp"
+                    android:paddingRight="44dp"
+                    android:paddingBottom="32dp">
 
-            <ImageView
-                android:id="@+id/gmail"
-                android:layout_width="32dp"
-                android:layout_height="32dp"
-                android:layout_marginStart="16dp"
-                app:srcCompat="@drawable/gmailicon" />
 
-            <TextView
-                android:id="@+id/gmailLink"
+                    <ImageView
+                        android:id="@+id/facebook"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        app:srcCompat="@drawable/fblogo" />
+
+                    <TextView
+                        android:id="@+id/facebookLink"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/facebookContacto"
+                        android:textAlignment="center"
+                        android:textColorLink="@color/colorLink"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="55dp"
-                android:layout_marginTop="5dp"
-                android:text="@string/correoContacto"
-                android:textColorLink="@color/colorLink"
-                android:textSize="12sp" />
+                android:layout_margin="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="10dp">
 
-        </RelativeLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="44dp"
+                    android:paddingTop="32dp"
+                    android:paddingRight="44dp"
+                    android:paddingBottom="32dp">
 
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingStart="24dp"
-            android:paddingTop="8dp"
-            android:paddingBottom="8dp">
+                    <ImageView
+                        android:id="@+id/gmail"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        app:srcCompat="@drawable/gmailicon" />
 
-            <ImageView
-                android:id="@+id/website"
-                android:layout_width="32dp"
-                android:layout_height="32dp"
-                android:layout_marginStart="16dp"
-                app:srcCompat="@drawable/webicon" />
+                    <TextView
+                        android:id="@+id/gmailLink"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/correoContacto"
+                        android:textAlignment="center"
+                        android:textColorLink="@color/colorLink"
+                        android:textSize="12sp" />
+                </LinearLayout>
 
-            <TextView
-                android:id="@+id/websiteLink"
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="55dp"
-                android:layout_marginTop="5dp"
-                android:text="@string/webContacto"
-                android:textColorLink="@color/colorLink"
-                android:textSize="12sp" />
+                android:layout_margin="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="10dp">
 
-        </RelativeLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="44dp"
+                    android:paddingTop="32dp"
+                    android:paddingRight="44dp"
+                    android:paddingBottom="32dp">
+
+
+                    <ImageView
+                        android:id="@+id/website"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+
+                        app:srcCompat="@drawable/webicon" />
+
+                    <TextView
+                        android:id="@+id/websiteLink"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/webContacto"
+                        android:textAlignment="center"
+                        android:textColorLink="@color/colorLink"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
 
     </LinearLayout>
 
-    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

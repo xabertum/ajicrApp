@@ -2,6 +2,7 @@
     <string name="app_name">AJICR</string>
     <string name="title_home">Inicio</string>
     <string name="title_jornadas">Jornadas</string>
+    <string name="title_seminarios">Seminarios</string>
     <string name="title_encuentros">Encuentros</string>
     <string name="title_contacto">Contacto</string>
     <string name="title_activity_jornadas">AJICR - Jornadas</string>
@@ -193,7 +194,7 @@
     <string name="twitterContacto"><a href="https://twitter.com/ajicr_">Twitter</a></string>
     <string name="facebookContacto"><a href="https://www.facebook.com/ajicr0/">Facebook</a></string>
     <string name="linkedinContacto"><a href="https://www.linkedin.com/in/ajicr/">Linkedin</a></string>
-    <string name="correoContacto"><a href="mailto:contacto.ejicr@gmail.com">Correo Electrónico</a></string>
+    <string name="correoContacto"><a href="mailto:contacto.ejicr@gmail.com">Email</a></string>
     <string name="webContacto"><a href="https://ajicr.org/">Website</a></string>
 
 
