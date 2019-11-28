@@ -1,4 +1,4 @@
-package es.xabertum.ajicr_app.Jornadas;
+package es.xabertum.ajicr_app.Seminarios;
 
 
 import android.os.Bundle;
@@ -25,36 +25,36 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 import es.xabertum.ajicr_app.R;
 
-public class Fragment_jornadas_7 extends Fragment implements OnMapReadyCallback {
+public class Fragment_seminarios_AR_2 extends Fragment implements OnMapReadyCallback {
 
     GoogleMap mGoogleMap;
     MapView mapView;
-    View jornadasVI;
-    ImageView imageViewPortada_j7;
-    ImageView cartel_j7;
+    View jornadasV;
+    ImageView imageViewPortada_j5;
+    ImageView cartel_j5;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState ) {
-        jornadasVI = inflater.inflate(R.layout.fragment_jornadas_6, null);
-        jornadasVI.setSaveFromParentEnabled(false);
-        imageViewPortada_j7 = jornadasVI.findViewById(R.id.imageViewPortada_j7);
-        cartel_j7 = jornadasVI.findViewById(R.id.cartelJornadas7);
+        jornadasV = inflater.inflate(R.layout.fragment_seminarios_ar_2, null);
+        jornadasV.setSaveFromParentEnabled(false);
+        imageViewPortada_j5 = jornadasV.findViewById(R.id.imageViewPortada_j7);
+        cartel_j5 = jornadasV.findViewById(R.id.cartelJornadas7);
 
-        Glide.with(this).load(R.drawable.portada_j7).into(imageViewPortada_j7);
-        Glide.with(this).load(R.drawable.cartel_jornadas_7).into(cartel_j7);
+        Glide.with(this).load(R.drawable.portada_s_ar_2).into(imageViewPortada_j5);
+        Glide.with(this).load(R.drawable.cartel_seminario_ar_2).into(cartel_j5);
 
-        TextView estatutosLink = jornadasVI.findViewById(R.id.link_progama_j5);
+        TextView estatutosLink = jornadasV.findViewById(R.id.link_seminario_AR_2);
         estatutosLink.setMovementMethod(LinkMovementMethod.getInstance());
 
-        return jornadasVI;
+        return jornadasV;
     }
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        mapView = (MapView) jornadasVI.findViewById(R.id.mapView);
+        mapView = (MapView) jornadasV.findViewById(R.id.mapView);
         if (mapView != null) {
             mapView.onCreate(null);
             mapView.onResume();
@@ -67,8 +67,8 @@ public class Fragment_jornadas_7 extends Fragment implements OnMapReadyCallback 
         MapsInitializer.initialize(getContext());
         mGoogleMap = googleMap;
         mGoogleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
-        mGoogleMap.addMarker(new MarkerOptions().position(new LatLng(40.448837, -3.730364)).title("Facultad de Filosofía UCM"));
-        CameraPosition facultadFilosofia = CameraPosition.builder().target(new LatLng(40.448837, -3.730364)).zoom(15).bearing(0).tilt(45).build();
+        mGoogleMap.addMarker(new MarkerOptions().position(new LatLng(40.436964, -3.685404)).title("O_LUMEN"));
+        CameraPosition facultadFilosofia = CameraPosition.builder().target(new LatLng(40.436964, -3.685404)).zoom(15).bearing(0).tilt(45).build();
         mGoogleMap.moveCamera(CameraUpdateFactory.newCameraPosition(facultadFilosofia));
 
     }

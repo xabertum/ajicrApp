@@ -34,7 +34,7 @@ public class Fragment_contacto extends Fragment {
 
         Glide.with(this).load(R.drawable.instagramicon).into(icon1);
         Glide.with(this).load(R.drawable.twittericon).into(icon2);
-        Glide.with(this).load(R.drawable.fblogo).into(icon3);
+        Glide.with(this).load(R.drawable.facebook_icon).into(icon3);
         Glide.with(this).load(R.drawable.squarelinkedin).into(icon4);
         Glide.with(this).load(R.drawable.gmailicon).into(icon5);
         Glide.with(this).load(R.drawable.webicon).into(icon6);

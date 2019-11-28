@@ -27,8 +27,18 @@
 
     <!-- Contenido de Jornadas -->
     <string name="explorar">Explorar</string>
-    <string name="card_1_title">Prueba</string>
-    <string name="card_1_content">prueba</string>
+
+    <!--  Seminario AR 2 -->
+    <string name="title_seminario_AR_2">II Seminario de Investigación AJICR: “Arte y Religiones”</string>
+    <string name="subTitle_seminario_AR_2">Lo Divino y lo Estético</string>
+    <string name="fecha_seminario_AR_2">Fecha realización - 18 y 19 de Febrero de 2020</string>
+    <string name="cartel_seminario_AR_2">Cartel:</string>
+    <string name="localizacion_seminario_AR_2">Localización: </string>
+    <string name="localizacion2_seminario_AR_2">El seminario tendra lugar en O_LUMEN, espacio para las artes y la palabra, situado en la calle Claudio Coello, 141 (Madrid).</string>
+    <string name="content1_seminario_AR_2">La historia de las religiones y la historia del arte tienen una relación muy estrecha desde tiempos inmemorables; siendo la expresión estética una herramienta más del ser humano para comprender y acercarse a la espiritualidad, la cosmovisión y lo transcendente.</string>
+    <string name="content2_seminario_AR_2">La obra de arte se convirtió –y sigue siendo actualmente– un potente catalizador y transmisor de significados, respuestas y cuestiones religiosas con mucha fuerza. Un lenguaje donde la experiencia estética y sensorial cobra una dimensión histórico-religiosa.</string>
+    <string name="content3_seminario_AR_2">Con un criterio académico-científico, y desde una perspectiva interdisciplinar, en esta segunda edición del Seminario de Investigación «Arte y Religiones» de la Asociación de Jóvenes Investigadores en Ciencias de las Religiones (AJICR), se quiere poner el foco en el binomio de lo divino y lo estético.</string>
+    <string name="link_seminario_AR_2"><a href="https://ajicr.files.wordpress.com/2019/10/lo-divino-y-lo-estc389tico-call-for-papers.pdf">Descarga el PDF con toda la información</a>.</string>
 
     <!-- Jornadas 7 Satanismo -->
     <string name="title_jornadas_7">VI Jornadas Universitarias de AJICR: “La Experiencia Siniestra”</string>
@@ -42,7 +52,7 @@
     <!--  Jornadas 6 -->
     <string name="title_jornadas_6">Curso de Verano: “Visiones desde la Frontera”</string>
     <string name="fecha_jornadas_6">Fecha realización - 25, 26, 27 y 28 de Junio de 2019</string>
-    <string name="cartelJornadas6">Cartel de las Jornadas: </string>
+    <string name="cartelJornadas6">Cartel</string>
     <string name="content1_jornadas_6">Desde la Asociación de Jóvenes Investigadores en Ciencias de las Religiones (AJICR) tenemos el honor de presentaros el evento que se organiza en <b>La Casa Negra</b> (Almansa, Albacete) bajo el título <b>“VISIONES DESDE LA FRONTERA”</b> que se celebrará del 25 al 28 de junio de 2019.</string>
     <string name="content2_jornadas_6">“A la luz de los últimos debates historiográficos sobre las consideraciones fronterizas en una Península Ibérica cuya historia ha oscilado entre sistemas considerados antagónicos, se comprueba que esa dualidad no solamente afecta a la época medieval, sino que la frontera asumida se va manteniendo, cambiante y permeable, hasta nuestros días. La investigación académica actual se está preocupando por repensar y redefinir dicha frontera no solamente como un concepto físico y militarizado, si no como noción permeable, de gran riqueza cultural, base de la memoria histórica e interesante como espacio donde “suceden cosas”. A través del análisis de las múltiples fronteras, Almansa, como “lugar de paso”, es el sitio idóneo para acoger un foro de debate sobre tales visiones, con aportaciones tanto del ámbito académico como de todas aquellas personas que deseen participar, compartiendo sus ideas y observaciones personales. Nuestra meta es crear un <b>espacio multidisciplinar</b> donde tengan cabida los estudios en filología, antropología, historia, arqueología, bellas artes,historia del arte, sociología, arquitectura, artes populares, historia de las religiones, etc., etc., etc., en todas las épocas y espacios del entorno mediterráneo, incluidas las experiencias propias, y hacerlas cristalizar en esas <b>VISIONES DESDE LA FRONTERA</b> desde un lugar donde el intercambio positivo de ideas siempre es posible: La Casa Negra.”</string>
     <string name="content3_jornadas_6"><li>Creación de un <b>foro de debate multidisciplinar</b> donde tengan voz tanto el mundo académico como las personas interesadas en este tipo de estudios.</li></string>
@@ -53,10 +63,10 @@
     <string name="programa_link_frontera"><a href="https://ajicr.files.wordpress.com/2019/08/tripticofrontera.pdf">Programa Visiones desde la Frontera</a></string>
 
     <!--  Jornadas V -->
-    <string name="title_jornadas_v">V Jornadas Universitarias de AJICR: “Política y Religiones”</string>
+    <string name="title_jornadas_v">II Seminario de Investigación AJICR Politica y Religiones</string>
     <string name="subTitle_jornadas_v">Religiones y Educación: ¿Por qué? ¿Cómo?</string>
     <string name="fecha_jornadas_v">Fecha realización - 20 de marzo de 2019</string>
-    <string name="cartelJornadasV">Cartel de las Jornadas: </string>
+    <string name="cartelJornadasV">Cartel:</string>
     <string name="localizacionJornadasV">Localización: </string>
     <string name="transporte">Transporte: </string>
     <string name="metro_2">Metro: </string>
@@ -82,7 +92,7 @@
     <string name="programa_jornadas4_link"><a href="https://ajicr.files.wordpress.com/2018/10/programa-iv-jornadas-ajicr.pdf">Programa IV Jornadas</a></string>
 
     <!-- Jornadas III -->
-    <string name="title_jornadas_3">III Jornadas Universitarias de AJICR: “Arte y Religiones: Simbología y Espacios de Culto”</string>
+    <string name="title_jornadas_3">I Seminario de Investigación AJICR Arte y Religiones: “Simbología y Espacios de Culto”</string>
     <string name="fecha_jornadas_3">Fecha realización - 17 y 18 de Enero de 2018</string>
     <string name="content1_jornadas_3">A la luz de la incuestionable relevancia de los significados de los símbolos y manifestaciones artísticas que han estado tan íntimamente relacionadas con el hecho religioso a lo largo de la historia, puede llegar a considerarse el arte como un gran aliado a la hora de expresar no solo diferentes cosmologías y cosmovisiones, sino también todo un entendimiento de conceptos tan abstractos como puede ser la trascendencia, la muerte, la vida, y un sinfín de ejemplos que rodean a aquellos actores y actrices sociales pertenecientes a una realidad sociocultural caracterizada por poseer, en mayor o menor medida, manifestaciones religiosas públicas y/o privadas.</string>
     <string name="content2_jornadas_3">Dada la existencia de este factor, resulta imposible no tenerlo en cuenta a la hora de tratar de desentrañar los significados de las diferentes religiones del mundo, y es por ello que desde la Asociación de Jóvenes Investigadores en Ciencias de las Religiones (AJICR) se han organizado unas nuevas Jornadas Universitarias que abarcan esta temática. Nos complace por tanto anunciar unas nuevas Jornadas para los días <b>17 y 18 del mes de Enero de 2018</b>.</string>
@@ -90,10 +100,10 @@
     <string name="content4_jornadas_3">El lugar del evento será la ciudad de <b>Málaga (Andalucía, España)</b>, y debemos destacar que ha podido realizarse gracias a la colaboración del <b>Museo de Málaga (MMA)</b> y <b>Smurfit Kappa</b>, entidades sin las cuales este evento no sería posible.</string>
     <string name="content5_jornadas_3">También queremos subrayar la participación y colaboración de otras diversas instituciones como la Junta de Andalucía, la Universidad de Málaga, la SECR, el IUCCRR, ARHE, la Universidad Complutense de Madrid, Acelerador de Artistas, GLOP (Ontinyent Beer Shop), Viajes Iverem,  Levatrel, Cristaleria Luz S.L., y Maca Arquitectos.</string>
     <string name="content6_jornadas_3">Puede consultar el <b>programa</b> del evento siguiendo el siguiente enlace: </string>
-    <string name="programa_jornadas3_link"><a href="https://ajicr.files.wordpress.com/2017/11/programa_iii_jornadas_ajicr__e2809carte2.pdf">Programa III Jornadas</a></string>
+    <string name="programa_jornadas3_link"><a href="https://ajicr.files.wordpress.com/2017/11/programa_iii_jornadas_ajicr__e2809carte2.pdf">Programa</a></string>
 
     <!-- Jornadas II -->
-    <string name="title_jornadas_2">II Jornadas Universitarias de AJICR: “Voces de Religiones y de Políticas en la Esfera Pública”</string>
+    <string name="title_jornadas_2">I Seminario de Investigación AJICR Politica y Religiones: “Voces de Religiones y de Políticas en la Esfera Pública”</string>
     <string name="fecha_jornadas_2">Fecha realización - 7 de Junio de 2017</string>
     <string name="content1_jornadas2">El día <b>7 de Junio de 2017</b> se han celebrado, en el Salón de Actos de la <b>Facultad de Filología de la Universidad Complutense de Madrid</b> (Edificio D) , nuestras <b>II Jornadas Universitarias</b>, cuyo título <i>“Voces de Religiones y de Políticas en la Esfera Pública“</i>. Nos sentimos muy orgullosos de haber ofrecido un interesante evento en el que la reflexión académica desde nuestra disciplina, las Ciencias de las Religiones, se ha acompañado de espacios de encuentro y diálogo entre representantes religiosos y políticos. Además hemos ofrecido un espacio plural y abierto de debate en el que ha fructificado la comunicación.</string>
     <string name="content2_jornadas2">Mesa religiosa:</string>

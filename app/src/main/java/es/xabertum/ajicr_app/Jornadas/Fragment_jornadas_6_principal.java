@@ -26,7 +26,7 @@ public class Fragment_jornadas_6_principal extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
-        jornadas_6 = inflater.inflate(R.layout.fragment_jornadas_6_principal, null);
+        jornadas_6 = inflater.inflate(R.layout.fragment_cursoverano_1_principal, null);
         imageViewCartel = jornadas_6.findViewById(R.id.cartel_jornadas_6);
         imageViewPortada = jornadas_6.findViewById(R.id.imageViewPortada_j6);
 

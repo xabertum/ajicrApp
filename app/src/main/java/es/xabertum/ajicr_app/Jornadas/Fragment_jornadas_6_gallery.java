@@ -23,7 +23,7 @@ public class Fragment_jornadas_6_gallery extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.fragment_jornadas_6_gallery, container, false);
+        View view = inflater.inflate(R.layout.fragment_cursoverano_1_gallery, container, false);
 
         imageView1 = view.findViewById(R.id.jornada_6_Gallery_1);
         imageView2 = view.findViewById(R.id.jornada_6_Gallery_2);

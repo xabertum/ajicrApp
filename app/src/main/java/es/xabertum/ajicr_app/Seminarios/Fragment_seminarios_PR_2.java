@@ -1,18 +1,17 @@
-package es.xabertum.ajicr_app.Jornadas;
+package es.xabertum.ajicr_app.Seminarios;
 
 
 import android.os.Bundle;
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.fragment.app.Fragment;
-import es.xabertum.ajicr_app.R;
-
 import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 
 import com.bumptech.glide.Glide;
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -24,7 +23,9 @@ import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-public class Fragment_jornadas_5 extends Fragment implements OnMapReadyCallback {
+import es.xabertum.ajicr_app.R;
+
+public class Fragment_seminarios_PR_2 extends Fragment implements OnMapReadyCallback {
 
     GoogleMap mGoogleMap;
     MapView mapView;
@@ -35,7 +36,7 @@ public class Fragment_jornadas_5 extends Fragment implements OnMapReadyCallback 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState ) {
-        jornadasV = inflater.inflate(R.layout.fragment_jornadas_5, null);
+        jornadasV = inflater.inflate(R.layout.fragment_seminarios_pr_2, null);
         jornadasV.setSaveFromParentEnabled(false);
         imageViewPortada_j5 = jornadasV.findViewById(R.id.imageViewPortada_j7);
         cartel_j5 = jornadasV.findViewById(R.id.cartelJornadas7);

@@ -1,88 +1,91 @@
-package es.xabertum.ajicr_app.Jornadas;
+package es.xabertum.ajicr_app.Seminarios;
 
 import android.app.Activity;
 import android.content.Context;
 import android.content.ContextWrapper;
-import androidx.annotation.NonNull;
-import androidx.fragment.app.Fragment;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.RecyclerView;
-import es.xabertum.ajicr_app.R;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.RecyclerView;
+
 import java.util.List;
 
-public class RecyclerViewAdapater extends RecyclerView.Adapter<RecyclerViewAdapater.JornadaViewHolder>  {
+import es.xabertum.ajicr_app.R;
+
+public class RecyclerViewAdapaterSeminarios extends RecyclerView.Adapter<RecyclerViewAdapaterSeminarios.SeminarioViewHolder>  {
 
     private Context mCtx;
-    private List<Jornada> jornadaList;
+    private List<Seminario> seminarioList;
 
 
-    public RecyclerViewAdapater(Context mCtx, List<Jornada> jornadaList) {
+    public RecyclerViewAdapaterSeminarios(Context mCtx, List<Seminario> seminarioList) {
         this.mCtx = mCtx;
-        this.jornadaList = jornadaList;
+        this.seminarioList = seminarioList;
     }
 
     @NonNull
     @Override
-    public JornadaViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
+    public SeminarioViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
 
         LayoutInflater inflater = LayoutInflater.from(mCtx);
         View view = inflater.inflate(R.layout.card_jornadas, viewGroup, false);
-        JornadaViewHolder jornadaViewHolder = new JornadaViewHolder(view);
+        SeminarioViewHolder seminarioViewHolder = new SeminarioViewHolder(view);
 
-        return jornadaViewHolder;
+        return seminarioViewHolder;
     }
 
     @Override
-    public void onBindViewHolder(@NonNull JornadaViewHolder jornadaViewHolder, int i) {
+    public void onBindViewHolder(@NonNull SeminarioViewHolder seminarioViewHolder, int i) {
 
-        final Jornada jornada = jornadaList.get(i);
-        jornadaViewHolder.cardTitle.setText(jornada.getCard_title());
-        jornadaViewHolder.cardSubTitle.setText(jornada.getCard_subTitle());
-        jornadaViewHolder.imageView.setImageDrawable(mCtx.getResources().getDrawable(jornada.getCard_image()));
-        jornadaViewHolder.explorar.setOnClickListener(new View.OnClickListener() {
+        final Seminario seminario = seminarioList.get(i);
+        seminarioViewHolder.cardTitle.setText(seminario.getCard_title());
+        seminarioViewHolder.cardSubTitle.setText(seminario.getCard_subTitle());
+        seminarioViewHolder.imageView.setImageDrawable(mCtx.getResources().getDrawable(seminario.getCard_image()));
+        seminarioViewHolder.explorar.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
 
                 AppCompatActivity activity = unwrap(v.getContext());
 
-                switch (jornada.getId()) {
-
+                switch (seminario.getId()) {
+                    case 1: {
+                        Fragment seminario_PR_1 = new Fragment_seminarios_PR_1();
+                        activity.getSupportFragmentManager().beginTransaction()
+                                .replace(R.id.fragment_container, seminario_PR_1)
+                                .addToBackStack(null).commit();
+                        break;
+                    }
                     case 2: {
-                        Fragment jornadas_4 = new Fragment_jornadas_4();
+                        Fragment seminario_AR_1 = new Fragment_seminarios_AR_1();
                         activity.getSupportFragmentManager().beginTransaction()
-                                .replace(R.id.fragment_container, jornadas_4)
+                                .replace(R.id.fragment_container, seminario_AR_1)
                                 .addToBackStack(null).commit();
                         break;
                     }
 
-                    case 5: {
-                        Fragment jornadas_1 = new Fragment_jornadas_1();
+                    case 3: {
+                        Fragment seminario_PR_2 = new Fragment_seminarios_PR_2();
                         activity.getSupportFragmentManager().beginTransaction()
-                                .replace(R.id.fragment_container, jornadas_1)
+                                .replace(R.id.fragment_container, seminario_PR_2)
                                 .addToBackStack(null).commit();
                         break;
+
                     }
-                    case 6: {
-                        Fragment jornadas_6 = new ViewPagerJornadas6();
+                    case 4: {
+                        Fragment seminario_AR_2 = new Fragment_seminarios_AR_2();
                         activity.getSupportFragmentManager().beginTransaction()
-                                .replace(R.id.fragment_container, jornadas_6)
+                                .replace(R.id.fragment_container, seminario_AR_2)
                                 .addToBackStack(null).commit();
                         break;
-                    }
-                    case 7: {
-                        Fragment jornadas_7 = new Fragment_jornadas_7();
-                        activity.getSupportFragmentManager().beginTransaction()
-                                .replace(R.id.fragment_container, jornadas_7)
-                                .addToBackStack(null).commit();
-                        break;
+
                     }
                 }
             }
@@ -92,16 +95,16 @@ public class RecyclerViewAdapater extends RecyclerView.Adapter<RecyclerViewAdapa
 
     @Override
     public int getItemCount() {
-        return jornadaList.size();
+        return seminarioList.size();
     }
 
-    class JornadaViewHolder extends RecyclerView.ViewHolder {
+    class SeminarioViewHolder extends RecyclerView.ViewHolder {
 
         ImageView imageView;
         Button explorar;
         TextView cardTitle, cardSubTitle;
 
-        public JornadaViewHolder(@NonNull View itemView) {
+        public SeminarioViewHolder(@NonNull View itemView) {
             super(itemView);
 
             explorar = itemView.findViewById(R.id.btn_explorar);
